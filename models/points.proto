@@ -1,0 +1,34 @@
+syntax = "proto3";
+package forzatelemetry;
+
+option go_package = "models/";
+
+message ApiPoint {
+    float raceTime = 1;
+    float lapTime = 2;
+    uint32 lapNumber = 3;
+    float fuel = 4;
+    float speed = 5;
+    
+    uint32 racePosition = 6;
+    uint32 accel = 7;
+    uint32 brake = 8;
+    uint32 gear = 9;
+
+    float tireWearFrontLeft = 10;
+    float tireWearFrontRight = 11;
+    float tireWearRearLeft = 12;
+    float tireWearRearRight = 13;
+
+    float tireTempFrontLeft = 14;
+    float tireTempFrontRight = 15;
+    float tireTempRearLeft = 16;
+    float tireTempRearRight = 17;
+
+    float positionX = 18;
+    float positionY = 19;
+    float positionZ = 20;
+
+    float engineCurrentRPM = 21;
+    sint32 steer = 22;
+}

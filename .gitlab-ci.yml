@@ -1,0 +1,52 @@
+stages:
+  - review
+  - build
+  - release
+
+.golang: &golang
+  image: golang:1.22-alpine
+  before_script:
+    - apk add --update --no-cache git just
+    - export GOPATH="$CI_PROJECT_DIR/.cache"
+  cache:
+    key: gopath-cache
+    paths:
+      - .cache
+
+lint:
+  <<: *golang
+  stage: review
+  script:
+    - just lint
+
+test:
+  <<: *golang
+  stage: review
+  script:
+    - just test
+
+build:
+  <<: *golang
+  stage: build
+  script:
+    - just build
+  needs:
+    - lint
+    - test
+  artifacts:
+    paths:
+      - build
+
+ansible:
+  stage: release
+  needs:
+    - build
+  variables:
+    ANSIBLE_LIMIT: forzatelemetry-1.quentindawans.infra
+    ANSIBLE_TAGS: forzatelemetry
+  trigger:
+    project: infra/ansible
+  when: manual
+  only:
+    - main
+  

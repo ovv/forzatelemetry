@@ -1,0 +1,11 @@
+{{- define "base_content" -}}
+<div class="jumbotron m-3 p-3 bg-body-secondary rounded-4">
+    <h1 class="display-4">{{ .Status }} {{ .Msg }}</h1>
+</div>
+{{- end -}}
+
+{{- if .HTMX -}}
+<div>{{ .Status }} {{ .Msg }}</div>
+{{ else }}
+{{- template "base.html" . -}}
+{{ end }}

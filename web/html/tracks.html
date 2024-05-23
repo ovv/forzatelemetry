@@ -1,0 +1,5 @@
+<option value="track:eq:*" disabled selected>Select Track</option>
+<option value="track:eq:*">All</option>
+{{- range $track := .Tracks -}}
+<option value="track:eq:{{ $track.Ordinal }}">{{ $track.FullName }}</option>
+{{- end -}}

@@ -1,0 +1,26 @@
+<div class="d-inline-flex container-fluid m-0 p-0 align-items-center" >
+    <div class="flex-shrink-0 rounded text-white position-relative" style="background-color: #{{ .Race.CarClassMetadata.Color }}; height: 48px; width: 48px">
+        <div class="position-absolute top-50 start-50 translate-middle" style="font-size: 25px;">{{ .Race.CarClassMetadata.Name }}</div>
+        <!-- <h3 class="d-inline" ></h3> -->
+    </div>
+    <div class="container-fluid">
+        <div class="card-title lead">{{ .Race.TrackMetadata.Name }} - {{ .Race.TrackMetadata.Layout }}</div>
+        <div class="row">
+          <div class="col-md">{{ .Race.CarMetadata.Year }} {{ .Race.CarMetadata.Make }} {{ .Race.CarMetadata.Model }}</div>
+          {{ if not .Race.InProgress }}
+          <div class="col-auto text-end text-muted">{{ .FinishedAt }}</div>
+          {{ end }}
+        </div>
+    </div>
+    {{ if .Race.InProgress }}
+      {{ if .Race.Paused }}
+      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="var(--bs-primary)" class="bi bi-pause" viewBox="0 0 16 16">
+        <path d="M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5m4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5"/>
+      </svg>
+      {{ else }}
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">.</span>
+      </div>
+      {{ end }}
+    {{ end }}
+</div>
