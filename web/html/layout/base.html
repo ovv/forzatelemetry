@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+{{- template "header.html" -}}
+{{- template "script.html" -}}
+<body class="bg-body-tertiary">
+<div class="container-xxl p-0 min-vh-100 d-flex flex-column">
+    <div class="container-xxl">
+        <nav class="navbar">
+            <a class="navbar-brand" href="/">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-headset d-inline" viewBox="0 0 16 16" height="64">
+                    <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+                </svg>
+                <div class="h1 d-inline align-middle">Telemetry Viewer</div>
+            </a>
+            <a href="https://github.com/ovv/forzatelemetry" target="_blank" class="link-dark">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                </svg>
+            </a>
+        </nav>
+    </div>
+    <div class="container-fluid flex-grow-1 d-flex flex-column">
+        <div class="jumbotron my-3 py-3 bg-body-secondary rounded-4">
+            <div class="container-fluid">
+                <h1 class="display-4">Record your races telemetry</h1>
+                <p class="lead">Easily connect your Forza Motorsport game and see the telemetry on the race dashboard.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#connectModal">Connect</button>
+            </div>
+            <div class="modal fade" id="connectModal" tabindex="-1" aria-labelledby="connect-modal-label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="connect-modal-label">How-to connect</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>To connect your game to forzatelemetry.com go to:</p>
+                        <p class="lead">Settings > Gameplay & Hub > UDP Race Telemetry</p>
+                        <p>Set the following configuration:</p>
+                        <div class="container mb-3">
+                            <div class="row">
+                                <div class="col">Data Out</div>
+                                <div class="col">On</div>
+                            </div>
+                            <div class="row">
+                                <div class="col">Data Out IP Address</div>
+                                <div class="col">forzatelemetry.com</div>
+                            </div>
+                            <div class="row">
+                                <div class="col">Data Out IP Port</div>
+                                <div class="col">9876</div>
+                            </div>
+                            <div class="row">
+                                <div class="col">Data Out Packet Format</div>
+                                <div class="col">Car Dash</div>
+                            </div>
+                        </div>
+                        <p>Save and your next race will show up.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <select class="form-select" id="filter-track" name="filter" hx-get="/metadata/tracks" hx-trigger="load" hx-params="none">
+                <option value="track:eq:*" disabled selected>Select Track</option>
+                <option value="track:eq:*">All</option>
+            </select>
+        </div>
+        <div class="bg-body-secondary my-3 py-3 flex-grow-1 rounded-top-4">
+            <div class="container-fluid">
+                {{ block "base_content" . }}
+                <div hx-get="/races" hx-trigger="load, change from:select" hx-headers='{"HX-Polling": "all"}' hx-target="#accordion-races" hx-include="select[name='filter']" hx-swap="innerHTML">
+                    <div class="accordion" id="accordion-races" hx-disinherit="hx-target">
+                        {{ block "races_content" .}}
+                        {{ end }}
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

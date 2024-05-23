@@ -1,0 +1,60 @@
+---
+
+- model: Race
+  rows:
+    - id: 982e6f1d-efe2-4b67-b420-67c08e705994
+      session_id: b1f08eb3-544c-46f9-a005-aaff6c41c215
+      started_at: "2024-09-16T17:37:10.0Z"
+      car: 108
+
+- model: Point
+  rows:
+    - race: 44e22d85-3883-4552-9ff4-91a7211e0639
+      lap_number: 0
+      current_race_time: 0.0
+      created_at: "2024-09-08T17:37:10.000000Z"
+    - race: 44e22d85-3883-4552-9ff4-91a7211e0639
+      lap_number: 1
+      current_race_time: 120.0
+      created_at: "2024-09-08T17:39:10.000000Z"
+    - race: 44e22d85-3883-4552-9ff4-91a7211e0639
+      lap_number: 2
+      current_race_time: 240.0
+      created_at: "2024-09-08T17:41:10.000000Z"
+
+    - race: 982e6f1d-efe2-4b67-b420-67c08e705994
+      lap_number: 0
+      current_lap: 0
+      current_race_time: 0.0
+      race_position: 10
+      created_at: "2024-09-08T17:37:10.000000Z"
+    - race: 982e6f1d-efe2-4b67-b420-67c08e705994
+      lap_number: 0
+      current_lap: 60
+      current_race_time: 60.0
+      race_position: 9
+      created_at: "2024-09-08T17:38:10.000000Z"
+    - race: 982e6f1d-efe2-4b67-b420-67c08e705994
+      lap_number: 1
+      current_lap: 5
+      current_race_time: 120.0
+      race_position: 8
+      created_at: "2024-09-08T17:39:10.000000Z"
+    - race: 982e6f1d-efe2-4b67-b420-67c08e705994
+      lap_number: 1
+      current_lap: 55
+      current_race_time: 180.0
+      race_position: 7
+      created_at: "2024-09-08T17:40:10.000000Z"
+    - race: 982e6f1d-efe2-4b67-b420-67c08e705994
+      lap_number: 2
+      current_lap: 2
+      current_race_time: 240.0
+      race_position: 6
+      created_at: "2024-09-08T17:41:10.000000Z"
+    - race: 982e6f1d-efe2-4b67-b420-67c08e705994
+      lap_number: 2
+      current_lap: 64
+      current_race_time: 300.0
+      race_position: 5
+      created_at: "2024-09-08T17:42:10.000000Z"

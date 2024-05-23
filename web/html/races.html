@@ -1,0 +1,35 @@
+{{- define "races_content" -}}
+{{ if $.PollNew }}
+<div hx-get="/races?filter=inProgress:eq:true&filter=startedAt:gt:{{ $.PollNewTime }}" hx-trigger="every 5s" hx-swap="outerHTML" hx-headers='{"HX-Polling": "new"}' hx-include="select[name='filter']"></div>
+{{ end }}
+{{ range $index, $race := .Items }}
+{{ if $.PollPrevious $index }}
+  <div class="accordion-item border-0 mb-3 bg-body-secondary" hx-get="/races?filter=inProgress:eq:false&filter=finishedAt:lt:{{ $.PollPreviousTime }}" hx-trigger="revealed" hx-swap="afterend" hx-headers='{"HX-Polling": "previous"}' hx-include="select[name='filter']">
+{{ else }}
+  <div class="accordion-item border-0 mb-3 bg-body-secondary">
+{{ end }}
+    <div class="accordion-header border-0 bg-body-secondary" id="accordion-header-{{ $race.ID }}">
+        <button id="accordion-button-{{ $race.ID }}" class="accordion-button p-1 collapsed border-0 shadow-none text-body rounded-top-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ $race.ID }}" aria-expanded="false" aria-controls="collapse-{{ $race.ID }}">
+          <div class="card border-0 bg-transparent container-fluid">
+            <div id="race-card-title-{{ $race.ID }}" class="card-body m-0 p-0">
+              {{- template "race_card_title.html" (NewRaceCardTitle $race $.TZ) -}}
+            </div>
+          </div>
+        </button>
+    </div>
+    <div id="collapse-{{ $race.ID }}" class="accordion-collapse collapse border-0" aria-labelledby="accordion-header-{{ $race.ID }}">
+      <div class="accordion-body bg-body-tertiary border-0 rounded-bottom-4">
+        <div hx-get="/races/{{ $race.ID }}" hx-trigger="every 5s [{{ $race.InProgress }}], click from:#accordion-button-{{ $race.ID }}" hx-swap="outerHTML">
+          {{- template "race_card_body.html" $race -}}
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
+{{- end -}}
+
+{{- if .HTMX -}}
+{{- template "races_content" . -}}
+{{ else }}
+{{- template "base.html" . -}}
+{{ end }}

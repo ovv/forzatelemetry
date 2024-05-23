@@ -1,0 +1,9 @@
+{{- define "version_content" -}}
+<p class="text-muted"><small>{{ slice .Version 0 8 }}</small></p>
+{{ end }}
+
+{{- if .HTMX -}}
+{{- template "version_content" . -}}
+{{ else }}
+{{- template "base.html" . -}}
+{{ end }}

@@ -1,0 +1,6 @@
+<script>
+    document.addEventListener('htmx:configRequest', function(evt) {
+        evt.detail.headers['Accept'] = "text/html";
+        evt.detail.headers['HX-Timezone'] = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    });
+</script>

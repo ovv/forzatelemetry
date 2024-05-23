@@ -1,0 +1,47 @@
+---
+
+- model: Race
+  rows:
+    - id: 44e22d85-3883-4552-9ff4-91a7211e0639
+      session_id: 665078b0-1130-48a9-8a35-0e7cbfd7704c
+      started_at: "2024-09-07T17:37:10.0Z"
+      finished_at: "2024-09-08T17:37:10.0Z"
+      car: 100
+    - id: df9d1160-4c51-4b94-824f-c6f9cd1dee5e
+      session_id: 249670c2-603d-4ab2-8d50-2fd29a5dee39
+      finished_at: "2024-09-09T17:37:10.0Z"
+      car: 101
+    - id: 5d8f6c20-e31e-4b41-ab97-aa07f3bef3fd
+      session_id: 097900ba-def6-4d20-8d7a-28994cc32545
+      finished_at: "2024-09-10T17:37:10.0Z"
+      car: 102
+    - id: 54221549-d8cc-4726-862b-fb8cf92b4677
+      session_id: e99d8d9f-8674-4f87-852d-97a9570fce36
+      finished_at: "2024-09-11T17:37:10.0Z"
+      car: 103
+    - id: ad28a390-ac89-4969-89a2-a0f7e03b4b2b
+      session_id: 1a49060a-a242-47c0-be77-d9527444f811
+      finished_at: "2024-09-12T17:37:10.0Z"
+      car: 104
+    - id: 3b3e9041-dac2-4411-8785-1c3546098ef6
+      session_id: c729ce10-d361-408f-92ec-920babdc232e
+      finished_at: "2024-09-13T17:37:10.0Z"
+      car: 105
+    - id: 9d311ab7-9236-42e6-9287-62f9b41fe1d1
+      session_id: b8cf2b7f-1e0f-4bf9-aee6-a8a4b55b8502
+      finished_at: "2024-09-14T17:37:10.0Z"
+      car: 106
+    - id: 3cb31256-f9fb-481b-90bc-9b7440441105
+      session_id: 869696cb-d3da-4ed9-a353-111f75cccf77
+      started_at: "2024-09-14T17:37:10.0Z"
+      finished_at: "2024-09-15T17:37:10.0Z"
+      car: 107
+    - id: b1856e96-66b4-410b-a4b4-8428df3af2cb
+      session_id: b1f08eb3-544c-46f9-a005-aaff6c41c215
+      finished_at: "2024-09-16T17:37:10.0Z"
+      car: 108
+    - id: db1e4ffd-9476-48fc-b611-154cfc9e7c02
+      session_id: 5d955775-4625-403e-808a-4ffe3d919526
+      in_progress: True
+      finished_at: "2024-09-17T17:37:10.0Z"
+      car: 109

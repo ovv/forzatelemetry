@@ -1,0 +1,16 @@
+apiVersion: 1
+
+datasources:
+  - name: forzatelemetry-db
+    uid: PB75371D3CF09B6A8
+    type: postgres
+    url: forzatelemetry-postgres:5432
+    user: postgres
+    orgId: 1
+    secureJsonData: 
+        password: owncgbwpwmyyiq
+    jsonData:
+        database: postgres
+        sslmode: disable
+        postgresVersion: 1600
+        timescaledb: False
