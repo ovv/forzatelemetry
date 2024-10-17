@@ -2536,6 +2536,24 @@ var Cars = []Car{
 		Model:   "Golf GTI",
 	},
 	{
+		Ordinal: 2996,
+		Year:    2015,
+		Make:    "Formula Drift",
+		Model:   "Ford Mustang #13",
+	},
+	{
+		Ordinal: 3000,
+		Year:    1997,
+		Make:    "Formula Drift",
+		Model:   "Nissan 240SX #777",
+	},
+	{
+		Ordinal: 3003,
+		Year:    2006,
+		Make:    "Formula Drift",
+		Model:   "Dodge Viper SRT10 #43",
+	},
+	{
 		Ordinal: 3018,
 		Year:    1985,
 		Make:    "Nissan",
@@ -3256,6 +3274,12 @@ var Cars = []Car{
 		Model:   "LC 500",
 	},
 	{
+		Ordinal: 3523,
+		Year:    2020,
+		Make:    "Formula Drift",
+		Model:   "Toyota GR Supra #151",
+	},
+	{
 		Ordinal: 3532,
 		Year:    2020,
 		Make:    "Hyundai",
@@ -3592,6 +3616,18 @@ var Cars = []Car{
 		Model:   "#2 Cadillac Racing V-Series.R",
 	},
 	{
+		Ordinal: 3868,
+		Year:    2024,
+		Make:    "Ford",
+		Model:   "Mustang RTR #88",
+	},
+	{
+		Ordinal: 3870,
+		Year:    2024,
+		Make:    "Ford",
+		Model:   "Mustang RTR #25",
+	},
+	{
 		Ordinal: 3876,
 		Year:    2023,
 		Make:    "Porsche",
@@ -3602,6 +3638,12 @@ var Cars = []Car{
 		Year:    1996,
 		Make:    "Mitsubishi",
 		Model:   "Lancer Evolution III GSR",
+	},
+	{
+		Ordinal: 3916,
+		Year:    2024,
+		Make:    "Ford",
+		Model:   "Mustang RTR #130",
 	},
 	{
 		Ordinal: 3972,
