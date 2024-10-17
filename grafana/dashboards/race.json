@@ -85,7 +85,7 @@
         "textMode": "value",
         "wideLayout": false
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.2.2",
       "targets": [
         {
           "datasource": {
@@ -225,7 +225,7 @@
         "textMode": "value",
         "wideLayout": false
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.2.2",
       "targets": [
         {
           "datasource": {
@@ -303,7 +303,7 @@
         "textMode": "value",
         "wideLayout": false
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.2.2",
       "targets": [
         {
           "datasource": {
@@ -385,14 +385,11 @@
           "values": false
         },
         "showPercentChange": false,
-        "text": {
-          "titleSize": 20,
-          "valueSize": 30
-        },
+        "text": {},
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.2.2",
       "targets": [
         {
           "datasource": {
@@ -520,14 +517,11 @@
           "values": false
         },
         "showPercentChange": false,
-        "text": {
-          "titleSize": 20,
-          "valueSize": 30
-        },
+        "text": {},
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.2.2",
       "targets": [
         {
           "datasource": {
@@ -593,14 +587,11 @@
           "values": false
         },
         "showPercentChange": false,
-        "text": {
-          "titleSize": 20,
-          "valueSize": 30
-        },
+        "text": {},
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.2.2",
       "targets": [
         {
           "datasource": {
@@ -676,7 +667,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.2.2",
       "targets": [
         {
           "datasource": {
@@ -799,14 +790,11 @@
           "values": false
         },
         "showPercentChange": false,
-        "text": {
-          "titleSize": 20,
-          "valueSize": 30
-        },
+        "text": {},
         "textMode": "value",
         "wideLayout": false
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.2.2",
       "targets": [
         {
           "datasource": {
@@ -929,14 +917,11 @@
           "values": false
         },
         "showPercentChange": false,
-        "text": {
-          "titleSize": 20,
-          "valueSize": 30
-        },
+        "text": {},
         "textMode": "value",
         "wideLayout": false
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.2.2",
       "targets": [
         {
           "datasource": {
@@ -997,14 +982,11 @@
           "values": false
         },
         "showPercentChange": false,
-        "text": {
-          "titleSize": 20,
-          "valueSize": 30
-        },
+        "text": {},
         "textMode": "value",
         "wideLayout": false
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.2.2",
       "targets": [
         {
           "datasource": {
@@ -1065,14 +1047,11 @@
           "values": false
         },
         "showPercentChange": false,
-        "text": {
-          "titleSize": 20,
-          "valueSize": 30
-        },
+        "text": {},
         "textMode": "value",
         "wideLayout": false
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.2.2",
       "targets": [
         {
           "datasource": {
@@ -1188,14 +1167,11 @@
           "values": false
         },
         "showPercentChange": false,
-        "text": {
-          "titleSize": 20,
-          "valueSize": 30
-        },
+        "text": {},
         "textMode": "value",
         "wideLayout": false
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.2.2",
       "targets": [
         {
           "datasource": {
@@ -1728,7 +1704,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -1934,7 +1911,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -1990,7 +1968,7 @@
           "editorMode": "code",
           "format": "table",
           "rawQuery": true,
-          "rawSql": "SELECT created_at, accel / 250 as \"Acceleration\", brake / 250 as \"Braking\" FROM points WHERE race = '$race' ",
+          "rawSql": "SELECT created_at, accel / 255.0 as \"Acceleration\", brake / 255.0 as \"Braking\" FROM points WHERE race = '$race'",
           "refId": "A",
           "sql": {
             "columns": [
@@ -2115,7 +2093,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -2302,7 +2281,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -2645,6 +2625,6 @@
   "timezone": "browser",
   "title": "Race",
   "uid": "bdwp0tg8b21oge",
-  "version": 44,
+  "version": 46,
   "weekStart": ""
 }
