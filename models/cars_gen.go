@@ -334,6 +334,12 @@ var Cars = []Car{
 		Model:   "IMPREZA WRX STI",
 	},
 	{
+		Ordinal: 365,
+		Year:    2005,
+		Make:    "Subaru",
+		Model:   "Impreza WRX STI",
+	},
+	{
 		Ordinal: 368,
 		Year:    2001,
 		Make:    "Acura",
@@ -1172,6 +1178,12 @@ var Cars = []Car{
 		Year:    2012,
 		Make:    "Mercedes-Benz",
 		Model:   "C 63 AMG Coupé Black Series",
+	},
+	{
+		Ordinal: 1510,
+		Year:    1993,
+		Make:    "Ford",
+		Model:   "Ford Mustang SVT Cobra R",
 	},
 	{
 		Ordinal: 1511,
@@ -3178,6 +3190,12 @@ var Cars = []Car{
 		Model:   "M2 Competition Coupé",
 	},
 	{
+		Ordinal: 3436,
+		Year:    1970,
+		Make:    "Ford",
+		Model:   "Mustang Boss 302 Trans AM",
+	},
+	{
 		Ordinal: 3437,
 		Year:    2020,
 		Make:    "McLaren",
@@ -3472,6 +3490,12 @@ var Cars = []Car{
 		Model:   "MG6 XPower",
 	},
 	{
+		Ordinal: 3696,
+		Year:    1965,
+		Make:    "Shelby",
+		Model:   "GT 500",
+	},
+	{
 		Ordinal: 3698,
 		Year:    2021,
 		Make:    "Porsche",
@@ -3602,6 +3626,18 @@ var Cars = []Car{
 		Year:    2018,
 		Make:    "Porsche",
 		Model:   "911 GT2 RS Forza Edition",
+	},
+	{
+		Ordinal: 3846,
+		Year:    2024,
+		Make:    "Ford",
+		Model:   "Mustang GT '24",
+	},
+	{
+		Ordinal: 3847,
+		Year:    2024,
+		Make:    "Ford",
+		Model:   "Mustang Dark Horse",
 	},
 	{
 		Ordinal: 3866,
