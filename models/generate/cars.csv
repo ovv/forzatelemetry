@@ -182,6 +182,7 @@
 1388,2012,BMW,M5
 1392,2011,Lamborghini,Sesto Elemento
 1395,1989,Toyota,MR2 SC
+1403,2010,Mazda,Racing B09/86
 1426,2011,Mazda,RX-8 R3
 1429,1969,Chevrolet,Nova Super Sport 396
 1440,2011,Ferrari,Risi Competizione 458 Italia GTC
@@ -194,7 +195,7 @@
 1490,2012,Vauxhall,Astra VXR
 1493,1995,BMW,850CSi
 1500,2012,Mercedes-Benz,C 63 AMG Coupé Black Series
-1510,1993,Ford,Ford Mustang SVT Cobra R
+1510,1993,Ford,Mustang SVT Cobra R
 1511,1968,Holden,Monaro GTS 327
 1513,1997,Maserati,Ghibli Cup
 1514,1973,Mazda,RX-3
@@ -230,6 +231,7 @@
 1651,2013,Ariel,Atom 500 V8
 1652,2013,Caterham,Superlight R500
 1653,2013,KTM,X-Bow R
+1654,2007,Ford,Mustang GT500
 1655,2013,SUBARU,BRZ
 1658,2013,Mercedes-Benz,A 45 AMG
 1662,1965,MINI,Cooper S
@@ -403,7 +405,7 @@
 2846,2018,McLaren,720S Coupe
 2852,2018,Audi,#1 Audi Sport RS 3 LMS
 2859,2016,Audi,#17 Rotek Racing TT RS
-2860,2017,Aston Martin,#7 Aston Martin Racing V12 Vantage GT3
+2860,2017,Aston Martin,Vantage GT3 Racing V12
 2866,2018,Exomotive,Exocet Sport V8 XP-5
 2868,1982,Ford,#6 Zakspeed Roush Mustang IMSA GT
 2870,2018,Honda,Civic Type R
@@ -490,8 +492,10 @@
 3272,2018,SUBARU,#1 Adrian Flux SUBARU Racing Levorg GT
 3276,2018,Saleen,S1
 3277,2020,Ford,Mustang Shelby GT500
+3278,2015,Ford,Saleen S302 Black Label
 3281,2015,Cadillac,#3 Cadillac Racing ATS-V.R
 3283,2018,Cadillac,#57 TA CTS-V
+3284,2021,Hennessey,Camaro Exorcist
 3285,2019,Brabham,BT62
 3286,2018,Audi,TT RS
 3287,1991,Jaguar,Sport XJR-15
@@ -529,6 +533,7 @@
 3427,2011,Ginetta,G55 GT4
 3429,2019,Ginetta,G40 Junior
 3434,2020,BMW,M2 Competition Coupé
+3435,1990,Chevrolet,Beretta Trans AM
 3436,1970,Ford,Mustang Boss 302 Trans AM
 3437,2020,McLaren,GT
 3445,2020,Porsche,Taycan Turbo S
@@ -612,3 +617,6 @@
 3886,1996,Mitsubishi,Lancer Evolution III GSR
 3916,2024,Ford,Mustang RTR #130
 3972,1969,Chevrolet,Camaro Jordan Luka 3
+3993,2024,Toyota,NASCAR Next Gen Camry XSE
+3994,2024,Chevrolet,NASCAR Next Gen Camaro ZL1
+3995,2024,Ford,NASCAR Next Gen Mustang Dark Horse

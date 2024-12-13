@@ -1108,6 +1108,12 @@ var Cars = []Car{
 		Model:   "MR2 SC",
 	},
 	{
+		Ordinal: 1403,
+		Year:    2010,
+		Make:    "Mazda",
+		Model:   "Racing B09/86",
+	},
+	{
 		Ordinal: 1426,
 		Year:    2011,
 		Make:    "Mazda",
@@ -1183,7 +1189,7 @@ var Cars = []Car{
 		Ordinal: 1510,
 		Year:    1993,
 		Make:    "Ford",
-		Model:   "Ford Mustang SVT Cobra R",
+		Model:   "Mustang SVT Cobra R",
 	},
 	{
 		Ordinal: 1511,
@@ -1394,6 +1400,12 @@ var Cars = []Car{
 		Year:    2013,
 		Make:    "KTM",
 		Model:   "X-Bow R",
+	},
+	{
+		Ordinal: 1654,
+		Year:    2007,
+		Make:    "Ford",
+		Model:   "Mustang GT500",
 	},
 	{
 		Ordinal: 1655,
@@ -2437,7 +2449,7 @@ var Cars = []Car{
 		Ordinal: 2860,
 		Year:    2017,
 		Make:    "Aston Martin",
-		Model:   "#7 Aston Martin Racing V12 Vantage GT3",
+		Model:   "Vantage GT3 Racing V12",
 	},
 	{
 		Ordinal: 2866,
@@ -2956,6 +2968,12 @@ var Cars = []Car{
 		Model:   "Mustang Shelby GT500",
 	},
 	{
+		Ordinal: 3278,
+		Year:    2015,
+		Make:    "Ford",
+		Model:   "Saleen S302 Black Label",
+	},
+	{
 		Ordinal: 3281,
 		Year:    2015,
 		Make:    "Cadillac",
@@ -2966,6 +2984,12 @@ var Cars = []Car{
 		Year:    2018,
 		Make:    "Cadillac",
 		Model:   "#57 TA CTS-V",
+	},
+	{
+		Ordinal: 3284,
+		Year:    2021,
+		Make:    "Hennessey",
+		Model:   "Camaro Exorcist",
 	},
 	{
 		Ordinal: 3285,
@@ -3188,6 +3212,12 @@ var Cars = []Car{
 		Year:    2020,
 		Make:    "BMW",
 		Model:   "M2 Competition Coupé",
+	},
+	{
+		Ordinal: 3435,
+		Year:    1990,
+		Make:    "Chevrolet",
+		Model:   "Beretta Trans AM",
 	},
 	{
 		Ordinal: 3436,
@@ -3686,5 +3716,23 @@ var Cars = []Car{
 		Year:    1969,
 		Make:    "Chevrolet",
 		Model:   "Camaro Jordan Luka 3",
+	},
+	{
+		Ordinal: 3993,
+		Year:    2024,
+		Make:    "Toyota",
+		Model:   "NASCAR Next Gen Camry XSE",
+	},
+	{
+		Ordinal: 3994,
+		Year:    2024,
+		Make:    "Chevrolet",
+		Model:   "NASCAR Next Gen Camaro ZL1",
+	},
+	{
+		Ordinal: 3995,
+		Year:    2024,
+		Make:    "Ford",
+		Model:   "NASCAR Next Gen Mustang Dark Horse",
 	},
 }

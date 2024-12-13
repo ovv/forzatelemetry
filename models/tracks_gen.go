@@ -263,6 +263,13 @@ var Tracks = []Track{
 		Length:   7.00,
 	},
 	{
+		Ordinal:  540,
+		Name:     "Mount Panorama",
+		Layout:   "Circuit",
+		Location: "Australia",
+		Length:   6.21,
+	},
+	{
 		Ordinal:  840,
 		Name:     "Daytona Intl Speedway",
 		Layout:   "Sports Car Circuit",
