@@ -1108,6 +1108,12 @@ var Cars = []Car{
 		Model:   "MR2 SC",
 	},
 	{
+		Ordinal: 1396,
+		Year:    2011,
+		Make:    "HSV",
+		Model:   "GTS",
+	},
+	{
 		Ordinal: 1403,
 		Year:    2010,
 		Make:    "Mazda",
@@ -2246,6 +2252,18 @@ var Cars = []Car{
 		Year:    1996,
 		Make:    "HSV",
 		Model:   "GTSR",
+	},
+	{
+		Ordinal: 2584,
+		Year:    1985,
+		Make:    "HDT",
+		Model:   "VK Commodore Group A",
+	},
+	{
+		Ordinal: 2587,
+		Year:    1988,
+		Make:    "Holden",
+		Model:   "HSV Commodore Group A SV",
 	},
 	{
 		Ordinal: 2614,
