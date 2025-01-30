@@ -898,6 +898,12 @@ var Cars = []Car{
 		Model:   "240SX SE",
 	},
 	{
+		Ordinal: 1290,
+		Year:    1986,
+		Make:    "BMW",
+		Model:   "M635 CSi",
+	},
+	{
 		Ordinal: 1292,
 		Year:    1986,
 		Make:    "Dodge",
@@ -1624,6 +1630,12 @@ var Cars = []Car{
 		Model:   "#25 BMW Motorsport 3.0 CSL",
 	},
 	{
+		Ordinal: 2118,
+		Year:    2013,
+		Make:    "Holden",
+		Model:   "Xbox Racing Team Commodore VF",
+	},
+	{
 		Ordinal: 2125,
 		Year:    1981,
 		Make:    "Ford",
@@ -1658,6 +1670,12 @@ var Cars = []Car{
 		Year:    1993,
 		Make:    "Renault",
 		Model:   "Clio Williams",
+	},
+	{
+		Ordinal: 2154,
+		Year:    2014,
+		Make:    "BMW",
+		Model:   "M4 Coupé",
 	},
 	{
 		Ordinal: 2158,
@@ -2020,6 +2038,12 @@ var Cars = []Car{
 		Model:   "CTS-V Sedan",
 	},
 	{
+		Ordinal: 2422,
+		Year:    2014,
+		Make:    "HSV",
+		Model:   "Limited Edition GEN-F GTS Maloo",
+	},
+	{
 		Ordinal: 2423,
 		Year:    1969,
 		Make:    "Lola",
@@ -2258,6 +2282,12 @@ var Cars = []Car{
 		Year:    1985,
 		Make:    "HDT",
 		Model:   "VK Commodore Group A",
+	},
+	{
+		Ordinal: 2585,
+		Year:    1972,
+		Make:    "Ford",
+		Model:   "Falcon XA GT-HO",
 	},
 	{
 		Ordinal: 2587,
@@ -2582,6 +2612,12 @@ var Cars = []Car{
 		Year:    2015,
 		Make:    "Formula Drift",
 		Model:   "Ford Mustang #13",
+	},
+	{
+		Ordinal: 2997,
+		Year:    2016,
+		Make:    "Formula Drift",
+		Model:   "HSV Maloo GEN-F #530",
 	},
 	{
 		Ordinal: 3000,
@@ -3400,6 +3436,12 @@ var Cars = []Car{
 		Model:   "P7",
 	},
 	{
+		Ordinal: 3551,
+		Year:    2020,
+		Make:    "Formula Drift",
+		Model:   "BMW M2 #91",
+	},
+	{
 		Ordinal: 3552,
 		Year:    2020,
 		Make:    "Lynk & Co",
@@ -3722,6 +3764,18 @@ var Cars = []Car{
 		Year:    1996,
 		Make:    "Mitsubishi",
 		Model:   "Lancer Evolution III GSR",
+	},
+	{
+		Ordinal: 3888,
+		Year:    1976,
+		Make:    "BMW",
+		Model:   "3.0 CSL #1",
+	},
+	{
+		Ordinal: 3913,
+		Year:    2023,
+		Make:    "BMW",
+		Model:   "Team RLL M Hybrid V8 #25",
 	},
 	{
 		Ordinal: 3916,

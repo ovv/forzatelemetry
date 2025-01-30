@@ -147,6 +147,7 @@
 1280,1970,Mercury,Cougar Eliminator
 1281,1955,Porsche,550 Spyder
 1282,1993,Nissan,240SX SE
+1290,1986,BMW,M635 CSi
 1292,1986,Dodge,Shelby Omni GLHS
 1293,1987,Ford,Sierra Cosworth RS500
 1296,1990,Mercedes-Benz,190E 2.5-16 Evolution II
@@ -268,12 +269,14 @@
 2104,2013,Dodge,Dart GT
 2105,2013,Donkervoort,D8 GTO
 2112,1975,BMW,#25 BMW Motorsport 3.0 CSL
+2118,2013,Holden,Xbox Racing Team Commodore VF
 2125,1981,Ford,#2 Zakspeed Racing Capri Turbo
 2126,1990,Ferrari,#1 Scuderia Ferrari 641
 2131,2014,HSV,GEN-F GTS
 2133,2015,BMW,i8
 2142,2014,Volkswagen,Golf R
 2149,1993,Renault,Clio Williams
+2154,2014,BMW,M4 Coupé
 2158,1981,Ford,Fiesta XR2
 2160,1979,Opel,Kadett C GT/E
 2162,2015,Jaguar,F-TYPE R Coupé
@@ -334,6 +337,7 @@
 2409,2015,Ford,#02 Chip Ganassi Racing Riley Mk XXVI Daytona Prototype
 2417,1973,Holden,HQ Monaro GTS 350
 2421,2016,Cadillac,CTS-V Sedan
+2422,2014,HSV,Limited Edition GEN-F GTS Maloo
 2423,1969,Lola,#6 Sunoco T70 MkIIIB
 2426,1990,Alpine,GTA Le Mans
 2427,2016,Vauxhall,Corsa VXR
@@ -374,6 +378,7 @@
 2581,1972,Chrysler,VH Valiant Charger R/T E49
 2582,1996,HSV,GTSR
 2584,1985,HDT,VK Commodore Group A
+2585,1972,Ford,Falcon XA GT-HO
 2587,1988,Holden,HSV Commodore Group A SV
 2614,1968,Ford,Mustang GT 2+2 Fastback
 2616,2016,Lamborghini,Centenario LP 770-4
@@ -428,6 +433,7 @@
 2993,2018,TVR,Griffith
 2995,1983,Volkswagen,Golf GTI
 2996,2015,Formula Drift,Ford Mustang #13
+2997,2016,Formula Drift,HSV Maloo GEN-F #530
 3000,1997,Formula Drift,Nissan 240SX #777
 3003,2006,Formula Drift,Dodge Viper SRT10 #43
 3018,1985,Nissan,#83 GTP ZX-Turbo
@@ -564,6 +570,7 @@
 3545,2020,Honda,#73 LA Honda World Racing Civic
 3546,2020,Lexus,RC F Track Edition
 3547,2020,Xpeng,P7
+3551,2020,Formula Drift,BMW M2 #91
 3552,2020,Lynk & Co,#62 Cyan Racing 03
 3583,2021,Audi,RS 6 Avant
 3584,2021,Audi,RS 7 Sportback
@@ -618,6 +625,8 @@
 3870,2024,Ford,Mustang RTR #25
 3876,2023,Porsche,Penske 963
 3886,1996,Mitsubishi,Lancer Evolution III GSR
+3888,1976,BMW,3.0 CSL #1
+3913,2023,BMW,Team RLL M Hybrid V8 #25
 3916,2024,Ford,Mustang RTR #130
 3972,1969,Chevrolet,Camaro Jordan Luka 3
 3993,2024,Toyota,NASCAR Next Gen Camry XSE
