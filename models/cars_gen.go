@@ -646,6 +646,12 @@ var Cars = []Car{
 		Model:   "Lancer Evolution X GSR",
 	},
 	{
+		Ordinal: 1011,
+		Year:    2008,
+		Make:    "BMW",
+		Model:   "M3",
+	},
+	{
 		Ordinal: 1020,
 		Year:    1996,
 		Make:    "Ferrari",
@@ -778,6 +784,12 @@ var Cars = []Car{
 		Model:   "Reventon",
 	},
 	{
+		Ordinal: 1126,
+		Year:    2009,
+		Make:    "BMW",
+		Model:   "M5",
+	},
+	{
 		Ordinal: 1131,
 		Year:    2009,
 		Make:    "Ferrari",
@@ -824,6 +836,12 @@ var Cars = []Car{
 		Year:    2011,
 		Make:    "Audi",
 		Model:   "RS 3 Sportback",
+	},
+	{
+		Ordinal: 1217,
+		Year:    2010,
+		Make:    "BMW",
+		Model:   "M6 Coupé '10",
 	},
 	{
 		Ordinal: 1219,
@@ -1036,6 +1054,12 @@ var Cars = []Car{
 		Model:   "Mustang GT Coupe",
 	},
 	{
+		Ordinal: 1367,
+		Year:    2003,
+		Make:    "BMW",
+		Model:   "M5",
+	},
+	{
 		Ordinal: 1368,
 		Year:    1988,
 		Make:    "BMW",
@@ -1142,6 +1166,12 @@ var Cars = []Car{
 		Year:    2011,
 		Make:    "Ferrari",
 		Model:   "Risi Competizione 458 Italia GTC",
+	},
+	{
+		Ordinal: 1451,
+		Year:    2012,
+		Make:    "Ascari",
+		Model:   "KZ1R",
 	},
 	{
 		Ordinal: 1457,
@@ -1552,6 +1582,12 @@ var Cars = []Car{
 		Model:   "LaFerrari",
 	},
 	{
+		Ordinal: 2038,
+		Year:    2014,
+		Make:    "Alfa Romeo",
+		Model:   "4C",
+	},
+	{
 		Ordinal: 2040,
 		Year:    2014,
 		Make:    "BAC",
@@ -1930,6 +1966,12 @@ var Cars = []Car{
 		Model:   "356A Speedster",
 	},
 	{
+		Ordinal: 2300,
+		Year:    1999,
+		Make:    "BMW",
+		Model:   "V12 LMR #16",
+	},
+	{
 		Ordinal: 2302,
 		Year:    2014,
 		Make:    "Toyota",
@@ -2098,6 +2140,12 @@ var Cars = []Car{
 		Model:   "R8 V10 plus",
 	},
 	{
+		Ordinal: 2474,
+		Year:    2016,
+		Make:    "Zenvo",
+		Model:   "ST1",
+	},
+	{
 		Ordinal: 2475,
 		Year:    2016,
 		Make:    "Spania GTA",
@@ -2242,6 +2290,12 @@ var Cars = []Car{
 		Model:   "#3 917 LH",
 	},
 	{
+		Ordinal: 2551,
+		Year:    2014,
+		Make:    "Ford",
+		Model:   "FPV Limited Edition Pursuit Ute",
+	},
+	{
 		Ordinal: 2559,
 		Year:    1959,
 		Make:    "Jaguar",
@@ -2338,6 +2392,12 @@ var Cars = []Car{
 		Model:   "GT R",
 	},
 	{
+		Ordinal: 2656,
+		Year:    2007,
+		Make:    "Toyota",
+		Model:   "Hilux Arctic Trucks AT38",
+	},
+	{
 		Ordinal: 2659,
 		Year:    1998,
 		Make:    "Nissan",
@@ -2366,6 +2426,12 @@ var Cars = []Car{
 		Year:    2017,
 		Make:    "Porsche",
 		Model:   "Panamera Turbo",
+	},
+	{
+		Ordinal: 2743,
+		Year:    2016,
+		Make:    "Toyota",
+		Model:   "Land Cruiser Arctic Trucks AT37",
 	},
 	{
 		Ordinal: 2755,
@@ -2854,6 +2920,12 @@ var Cars = []Car{
 		Model:   "Espada 400 GT",
 	},
 	{
+		Ordinal: 3195,
+		Year:    2018,
+		Make:    "ATS",
+		Model:   "GT",
+	},
+	{
 		Ordinal: 3196,
 		Year:    2019,
 		Make:    "RAESR",
@@ -2954,6 +3026,12 @@ var Cars = []Car{
 		Year:    2018,
 		Make:    "Peugeot",
 		Model:   "#7 DG Sport Compétition 308",
+	},
+	{
+		Ordinal: 3244,
+		Year:    1964,
+		Make:    "Plymouth",
+		Model:   "Belvedere",
 	},
 	{
 		Ordinal: 3250,
@@ -3208,6 +3286,12 @@ var Cars = []Car{
 		Model:   "Huracán EVO",
 	},
 	{
+		Ordinal: 3373,
+		Year:    2019,
+		Make:    "Toyota",
+		Model:   "4Runner TRD Pro",
+	},
+	{
 		Ordinal: 3395,
 		Year:    1967,
 		Make:    "Renault",
@@ -3436,6 +3520,12 @@ var Cars = []Car{
 		Model:   "P7",
 	},
 	{
+		Ordinal: 3548,
+		Year:    2013,
+		Make:    "Wuling",
+		Model:   "Sunshine S",
+	},
+	{
 		Ordinal: 3551,
 		Year:    2020,
 		Make:    "Formula Drift",
@@ -3508,6 +3598,12 @@ var Cars = []Car{
 		Model:   "Nevera",
 	},
 	{
+		Ordinal: 3629,
+		Year:    2021,
+		Make:    "Toyota",
+		Model:   "GR Yaris",
+	},
+	{
 		Ordinal: 3631,
 		Year:    2022,
 		Make:    "Aston Martin",
@@ -3568,10 +3664,22 @@ var Cars = []Car{
 		Model:   "Huracán STO",
 	},
 	{
+		Ordinal: 3676,
+		Year:    2021,
+		Make:    "Hyundai",
+		Model:   "Elantra N #98",
+	},
+	{
 		Ordinal: 3677,
 		Year:    2021,
 		Make:    "Lynk & Co",
 		Model:   "03+",
+	},
+	{
+		Ordinal: 3678,
+		Year:    2020,
+		Make:    "Hyundai",
+		Model:   "i30N",
 	},
 	{
 		Ordinal: 3689,
@@ -3622,10 +3730,28 @@ var Cars = []Car{
 		Model:   "296 GTB",
 	},
 	{
+		Ordinal: 3734,
+		Year:    2022,
+		Make:    "BMW",
+		Model:   "i4 eDrive40",
+	},
+	{
 		Ordinal: 3735,
 		Year:    2022,
 		Make:    "SUBARU",
 		Model:   "BRZ",
+	},
+	{
+		Ordinal: 3736,
+		Year:    2022,
+		Make:    "Ford",
+		Model:   "Bronco Raptor",
+	},
+	{
+		Ordinal: 3737,
+		Year:    2022,
+		Make:    "BMW",
+		Model:   "iX xDrive50",
 	},
 	{
 		Ordinal: 3745,
@@ -3644,6 +3770,12 @@ var Cars = []Car{
 		Year:    2022,
 		Make:    "Porsche",
 		Model:   "718 Cayman GT4 RS",
+	},
+	{
+		Ordinal: 3761,
+		Year:    2022,
+		Make:    "Toyota",
+		Model:   "GR86",
 	},
 	{
 		Ordinal: 3762,
@@ -3674,6 +3806,12 @@ var Cars = []Car{
 		Year:    2023,
 		Make:    "Cadillac",
 		Model:   "#31 Whelen Engineering Cadillac Racing V-Series.R",
+	},
+	{
+		Ordinal: 3795,
+		Year:    2023,
+		Make:    "Meyers",
+		Model:   "Manx 2.0",
 	},
 	{
 		Ordinal: 3798,
@@ -3718,6 +3856,30 @@ var Cars = []Car{
 		Model:   "911 GT2 RS Forza Edition",
 	},
 	{
+		Ordinal: 3810,
+		Year:    2010,
+		Make:    "Nissan",
+		Model:   "Tsuru",
+	},
+	{
+		Ordinal: 3811,
+		Year:    2023,
+		Make:    "Lucid",
+		Model:   "Air Sapphire",
+	},
+	{
+		Ordinal: 3823,
+		Year:    2022,
+		Make:    "Mazda",
+		Model:   "MX-5 Miata RF",
+	},
+	{
+		Ordinal: 3827,
+		Year:    2023,
+		Make:    "Hyundai",
+		Model:   "IONIQ 5 N",
+	},
+	{
 		Ordinal: 3846,
 		Year:    2024,
 		Make:    "Ford",
@@ -3728,6 +3890,18 @@ var Cars = []Car{
 		Year:    2024,
 		Make:    "Ford",
 		Model:   "Mustang Dark Horse",
+	},
+	{
+		Ordinal: 3848,
+		Year:    2023,
+		Make:    "Toyota",
+		Model:   "Camry TRD",
+	},
+	{
+		Ordinal: 3862,
+		Year:    2022,
+		Make:    "Hyundai",
+		Model:   "Elantra N",
 	},
 	{
 		Ordinal: 3866,
@@ -3782,6 +3956,18 @@ var Cars = []Car{
 		Year:    2024,
 		Make:    "Ford",
 		Model:   "Mustang RTR #130",
+	},
+	{
+		Ordinal: 3919,
+		Year:    2023,
+		Make:    "BMW",
+		Model:   "M4 GT3 #96",
+	},
+	{
+		Ordinal: 3928,
+		Year:    2021,
+		Make:    "Hyundai",
+		Model:   "i20N",
 	},
 	{
 		Ordinal: 3972,
