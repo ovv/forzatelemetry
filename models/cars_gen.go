@@ -382,6 +382,12 @@ var Cars = []Car{
 		Model:   "MC12",
 	},
 	{
+		Ordinal: 397,
+		Year:    2005,
+		Make:    "Vauxhall",
+		Model:   "Monaro VXR",
+	},
+	{
 		Ordinal: 398,
 		Year:    1995,
 		Make:    "Toyota",
@@ -424,6 +430,12 @@ var Cars = []Car{
 		Model:   "RS 6",
 	},
 	{
+		Ordinal: 422,
+		Year:    2002,
+		Make:    "Acura",
+		Model:   "RSX Type-S",
+	},
+	{
 		Ordinal: 423,
 		Year:    1990,
 		Make:    "Mazda",
@@ -452,6 +464,12 @@ var Cars = []Car{
 		Year:    2004,
 		Make:    "Saleen",
 		Model:   "S7",
+	},
+	{
+		Ordinal: 433,
+		Year:    2005,
+		Make:    "TVR",
+		Model:   "Sagaris",
 	},
 	{
 		Ordinal: 439,
@@ -670,6 +688,12 @@ var Cars = []Car{
 		Model:   "F40 Competizione",
 	},
 	{
+		Ordinal: 1032,
+		Year:    2007,
+		Make:    "Alfa Romeo",
+		Model:   "8C Competizione",
+	},
+	{
 		Ordinal: 1033,
 		Year:    1990,
 		Make:    "Chevrolet",
@@ -718,6 +742,12 @@ var Cars = []Car{
 		Model:   "Viper SRT10 ACR",
 	},
 	{
+		Ordinal: 1059,
+		Year:    2008,
+		Make:    "BMW",
+		Model:   "Z4 M Coupe",
+	},
+	{
 		Ordinal: 1060,
 		Year:    2008,
 		Make:    "SUBARU",
@@ -728,6 +758,12 @@ var Cars = []Car{
 		Year:    1969,
 		Make:    "Dodge",
 		Model:   "Charger Daytona HEMI",
+	},
+	{
+		Ordinal: 1064,
+		Year:    1979,
+		Make:    "Chevrolet",
+		Model:   "Camaro Z28",
 	},
 	{
 		Ordinal: 1065,
@@ -760,6 +796,12 @@ var Cars = []Car{
 		Model:   "SL 65 AMG Black Series",
 	},
 	{
+		Ordinal: 1093,
+		Year:    1960,
+		Make:    "Chevrolet",
+		Model:   "Corvette",
+	},
+	{
 		Ordinal: 1104,
 		Year:    1970,
 		Make:    "Datsun",
@@ -778,6 +820,12 @@ var Cars = []Car{
 		Model:   "MX-5 Miata",
 	},
 	{
+		Ordinal: 1124,
+		Year:    1980,
+		Make:    "Abarth",
+		Model:   "Fiat 131",
+	},
+	{
 		Ordinal: 1125,
 		Year:    2008,
 		Make:    "Lamborghini",
@@ -788,6 +836,12 @@ var Cars = []Car{
 		Year:    2009,
 		Make:    "BMW",
 		Model:   "M5",
+	},
+	{
+		Ordinal: 1130,
+		Year:    2011,
+		Make:    "McLaren",
+		Model:   "12C Coupe",
 	},
 	{
 		Ordinal: 1131,
@@ -826,6 +880,18 @@ var Cars = []Car{
 		Model:   "Murciélago LP 670-4 SV",
 	},
 	{
+		Ordinal: 1181,
+		Year:    2010,
+		Make:    "Aston Martin",
+		Model:   "One-77",
+	},
+	{
+		Ordinal: 1184,
+		Year:    2009,
+		Make:    "Audi",
+		Model:   "RS 6",
+	},
+	{
 		Ordinal: 1202,
 		Year:    2011,
 		Make:    "Mercedes-Benz",
@@ -848,6 +914,18 @@ var Cars = []Car{
 		Year:    1992,
 		Make:    "Bugatti",
 		Model:   "EB110 Super Sport",
+	},
+	{
+		Ordinal: 1220,
+		Year:    2010,
+		Make:    "Audi",
+		Model:   "TT RS Coupe",
+	},
+	{
+		Ordinal: 1231,
+		Year:    2010,
+		Make:    "Volkswagen",
+		Model:   "Golf R",
 	},
 	{
 		Ordinal: 1260,
@@ -922,6 +1000,12 @@ var Cars = []Car{
 		Model:   "M635 CSi",
 	},
 	{
+		Ordinal: 1291,
+		Year:    1970,
+		Make:    "Chevrolet",
+		Model:   "El Camino Super Sport 454",
+	},
+	{
 		Ordinal: 1292,
 		Year:    1986,
 		Make:    "Dodge",
@@ -938,6 +1022,18 @@ var Cars = []Car{
 		Year:    1990,
 		Make:    "Mercedes-Benz",
 		Model:   "190E 2.5-16 Evolution II",
+	},
+	{
+		Ordinal: 1299,
+		Year:    1983,
+		Make:    "Volvo",
+		Model:   "242 Turbo Evolution",
+	},
+	{
+		Ordinal: 1300,
+		Year:    1964,
+		Make:    "Chevrolet",
+		Model:   "Impala Super Sport 409",
 	},
 	{
 		Ordinal: 1301,
@@ -1042,10 +1138,22 @@ var Cars = []Car{
 		Model:   "308 GTI",
 	},
 	{
+		Ordinal: 1350,
+		Year:    2011,
+		Make:    "BMW",
+		Model:   "X5 M",
+	},
+	{
 		Ordinal: 1352,
 		Year:    1970,
 		Make:    "Dodge",
 		Model:   "Coronet Super Bee",
+	},
+	{
+		Ordinal: 1354,
+		Year:    1966,
+		Make:    "Chevrolet",
+		Model:   "Nova Super Sport",
 	},
 	{
 		Ordinal: 1355,
@@ -1076,6 +1184,18 @@ var Cars = []Car{
 		Year:    1995,
 		Make:    "Audi",
 		Model:   "Avant RS 2",
+	},
+	{
+		Ordinal: 1372,
+		Year:    1930,
+		Make:    "Bentley",
+		Model:   "8 Litre",
+	},
+	{
+		Ordinal: 1379,
+		Year:    1996,
+		Make:    "Chevrolet",
+		Model:   "Impala Super Sport",
 	},
 	{
 		Ordinal: 1380,
@@ -1132,6 +1252,12 @@ var Cars = []Car{
 		Model:   "Sesto Elemento",
 	},
 	{
+		Ordinal: 1393,
+		Year:    1992,
+		Make:    "Alfa Romeo",
+		Model:   "155 Q4",
+	},
+	{
 		Ordinal: 1395,
 		Year:    1989,
 		Make:    "Toyota",
@@ -1150,16 +1276,46 @@ var Cars = []Car{
 		Model:   "Racing B09/86",
 	},
 	{
+		Ordinal: 1417,
+		Year:    2011,
+		Make:    "Audi",
+		Model:   "RS 5 Coupe",
+	},
+	{
+		Ordinal: 1418,
+		Year:    1995,
+		Make:    "BMW",
+		Model:   "M5",
+	},
+	{
 		Ordinal: 1426,
 		Year:    2011,
 		Make:    "Mazda",
 		Model:   "RX-8 R3",
 	},
 	{
+		Ordinal: 1427,
+		Year:    2012,
+		Make:    "Pagani",
+		Model:   "Huayra",
+	},
+	{
+		Ordinal: 1428,
+		Year:    2011,
+		Make:    "Volkswagen",
+		Model:   "Scirocco R",
+	},
+	{
 		Ordinal: 1429,
 		Year:    1969,
 		Make:    "Chevrolet",
 		Model:   "Nova Super Sport 396",
+	},
+	{
+		Ordinal: 1435,
+		Year:    1963,
+		Make:    "Volkswagen",
+		Model:   "Beetle",
 	},
 	{
 		Ordinal: 1440,
@@ -1180,10 +1336,22 @@ var Cars = []Car{
 		Model:   "#4 McLaren Cars M8B",
 	},
 	{
+		Ordinal: 1459,
+		Year:    1957,
+		Make:    "Chevrolet",
+		Model:   "Bel Air",
+	},
+	{
 		Ordinal: 1462,
 		Year:    1957,
 		Make:    "Maserati",
 		Model:   "300 S",
+	},
+	{
+		Ordinal: 1478,
+		Year:    1986,
+		Make:    "Audi",
+		Model:   "#2 Audi Sport quattro S1",
 	},
 	{
 		Ordinal: 1480,
@@ -1196,6 +1364,12 @@ var Cars = []Car{
 		Year:    1965,
 		Make:    "Austin-Healey",
 		Model:   "3000 MkIII",
+	},
+	{
+		Ordinal: 1482,
+		Year:    1973,
+		Make:    "AMC",
+		Model:   "Gremlin X",
 	},
 	{
 		Ordinal: 1486,
@@ -1288,6 +1462,12 @@ var Cars = []Car{
 		Model:   "GS350 F Sport",
 	},
 	{
+		Ordinal: 1536,
+		Year:    1973,
+		Make:    "Alpine",
+		Model:   "A110 1600s",
+	},
+	{
 		Ordinal: 1537,
 		Year:    1974,
 		Make:    "Toyota",
@@ -1298,6 +1478,12 @@ var Cars = []Car{
 		Year:    2012,
 		Make:    "Porsche",
 		Model:   "911 GT2 RS",
+	},
+	{
+		Ordinal: 1549,
+		Year:    1968,
+		Make:    "Alfa Romeo",
+		Model:   "33 Stradale",
 	},
 	{
 		Ordinal: 1550,
@@ -1336,6 +1522,12 @@ var Cars = []Car{
 		Model:   "Viper GTS",
 	},
 	{
+		Ordinal: 1564,
+		Year:    1953,
+		Make:    "Chevrolet",
+		Model:   "Corvette",
+	},
+	{
 		Ordinal: 1572,
 		Year:    1970,
 		Make:    "AMC",
@@ -1346,6 +1538,12 @@ var Cars = []Car{
 		Year:    1989,
 		Make:    "Audi",
 		Model:   "#4 Audi 90 quattro IMSA GTO",
+	},
+	{
+		Ordinal: 1574,
+		Year:    1958,
+		Make:    "Austin-Healey",
+		Model:   "Sprite MkI",
 	},
 	{
 		Ordinal: 1575,
@@ -1418,6 +1616,18 @@ var Cars = []Car{
 		Year:    1988,
 		Make:    "Volkswagen",
 		Model:   "Scirocco 16v",
+	},
+	{
+		Ordinal: 1615,
+		Year:    1969,
+		Make:    "FIAT",
+		Model:   "Dino 2.4 Coupe",
+	},
+	{
+		Ordinal: 1619,
+		Year:    1967,
+		Make:    "Mercedes-Benz",
+		Model:   "280 SL",
 	},
 	{
 		Ordinal: 1620,
@@ -1534,6 +1744,12 @@ var Cars = []Car{
 		Model:   "Corvette ZR-1",
 	},
 	{
+		Ordinal: 2007,
+		Year:    2013,
+		Make:    "Toyota",
+		Model:   "86",
+	},
+	{
 		Ordinal: 2009,
 		Year:    2013,
 		Make:    "Audi",
@@ -1550,6 +1766,12 @@ var Cars = []Car{
 		Year:    1976,
 		Make:    "Ferrari",
 		Model:   "#1 Scuderia Ferrari 312 T2",
+	},
+	{
+		Ordinal: 2017,
+		Year:    1968,
+		Make:    "Abarth",
+		Model:   "595 esseesse",
 	},
 	{
 		Ordinal: 2018,
@@ -1598,6 +1820,12 @@ var Cars = []Car{
 		Year:    2013,
 		Make:    "Lamborghini",
 		Model:   "Veneno",
+	},
+	{
+		Ordinal: 2049,
+		Year:    1945,
+		Make:    "Willys",
+		Model:   "MB Jeep",
 	},
 	{
 		Ordinal: 2051,
@@ -1684,6 +1912,12 @@ var Cars = []Car{
 		Model:   "#1 Scuderia Ferrari 641",
 	},
 	{
+		Ordinal: 2128,
+		Year:    2013,
+		Make:    "Cadillac",
+		Model:   "XTS Limousine",
+	},
+	{
 		Ordinal: 2131,
 		Year:    2014,
 		Make:    "HSV",
@@ -1696,6 +1930,12 @@ var Cars = []Car{
 		Model:   "i8",
 	},
 	{
+		Ordinal: 2140,
+		Year:    1980,
+		Make:    "Subaru",
+		Model:   "BRAT GL",
+	},
+	{
 		Ordinal: 2142,
 		Year:    2014,
 		Make:    "Volkswagen",
@@ -1706,6 +1946,12 @@ var Cars = []Car{
 		Year:    1993,
 		Make:    "Renault",
 		Model:   "Clio Williams",
+	},
+	{
+		Ordinal: 2151,
+		Year:    1963,
+		Make:    "Volkswagen",
+		Model:   "Type 2 De Luxe",
 	},
 	{
 		Ordinal: 2154,
@@ -1724,6 +1970,12 @@ var Cars = []Car{
 		Year:    1979,
 		Make:    "Opel",
 		Model:   "Kadett C GT/E",
+	},
+	{
+		Ordinal: 2161,
+		Year:    1965,
+		Make:    "Alfa Romeo",
+		Model:   "Giulia TZ2",
 	},
 	{
 		Ordinal: 2162,
@@ -1790,6 +2042,18 @@ var Cars = []Car{
 		Year:    2013,
 		Make:    "Aston Martin",
 		Model:   "V12 Vantage S",
+	},
+	{
+		Ordinal: 2182,
+		Year:    2015,
+		Make:    "Audi",
+		Model:   "TTS Coupe",
+	},
+	{
+		Ordinal: 2183,
+		Year:    2015,
+		Make:    "Chevrolet",
+		Model:   "Camaro Z/28",
 	},
 	{
 		Ordinal: 2184,
@@ -1880,6 +2144,12 @@ var Cars = []Car{
 		Year:    1990,
 		Make:    "Mazda",
 		Model:   "MX-5 Miata",
+	},
+	{
+		Ordinal: 2258,
+		Year:    1970,
+		Make:    "Volkswagen",
+		Model:   "#1107 Desert Dingo Racing Stock Bug",
 	},
 	{
 		Ordinal: 2262,
@@ -2062,10 +2332,22 @@ var Cars = []Car{
 		Model:   "#17 M-Sport Bentley Continental GT3",
 	},
 	{
+		Ordinal: 2405,
+		Year:    2000,
+		Make:    "Lotus",
+		Model:   "340R",
+	},
+	{
 		Ordinal: 2409,
 		Year:    2015,
 		Make:    "Ford",
 		Model:   "#02 Chip Ganassi Racing Riley Mk XXVI Daytona Prototype",
+	},
+	{
+		Ordinal: 2412,
+		Year:    1957,
+		Make:    "BMW",
+		Model:   "Isetta 300 Export",
 	},
 	{
 		Ordinal: 2417,
@@ -2104,6 +2386,24 @@ var Cars = []Car{
 		Model:   "Corsa VXR",
 	},
 	{
+		Ordinal: 2428,
+		Year:    2016,
+		Make:    "W Motors",
+		Model:   "Lykan HyperSport",
+	},
+	{
+		Ordinal: 2430,
+		Year:    2016,
+		Make:    "Ariel",
+		Model:   "Nomad",
+	},
+	{
+		Ordinal: 2431,
+		Year:    2015,
+		Make:    "BMW",
+		Model:   "X6 M",
+	},
+	{
 		Ordinal: 2434,
 		Year:    1992,
 		Make:    "Toyota",
@@ -2120,6 +2420,12 @@ var Cars = []Car{
 		Year:    2015,
 		Make:    "Dodge",
 		Model:   "Charger SRT Hellcat",
+	},
+	{
+		Ordinal: 2469,
+		Year:    1965,
+		Make:    "Toyota",
+		Model:   "Sports 800",
 	},
 	{
 		Ordinal: 2470,
@@ -2150,6 +2456,12 @@ var Cars = []Car{
 		Year:    2016,
 		Make:    "Spania GTA",
 		Model:   "GTA Spano",
+	},
+	{
+		Ordinal: 2477,
+		Year:    2016,
+		Make:    "BMW",
+		Model:   "M2 Coupé",
 	},
 	{
 		Ordinal: 2479,
@@ -2194,6 +2506,12 @@ var Cars = []Car{
 		Model:   "#33 280ZX Turbo",
 	},
 	{
+		Ordinal: 2489,
+		Year:    2016,
+		Make:    "Abarth",
+		Model:   "695 Biposto",
+	},
+	{
 		Ordinal: 2493,
 		Year:    2015,
 		Make:    "Aston Martin",
@@ -2204,6 +2522,12 @@ var Cars = []Car{
 		Year:    1953,
 		Make:    "Maserati",
 		Model:   "A6GCS/53 PininFarina Berlinetta",
+	},
+	{
+		Ordinal: 2507,
+		Year:    1955,
+		Make:    "Chevrolet",
+		Model:   "150 Utility Sedan",
 	},
 	{
 		Ordinal: 2512,
@@ -2222,6 +2546,12 @@ var Cars = []Car{
 		Year:    2016,
 		Make:    "Chevrolet",
 		Model:   "Camaro Super Sport",
+	},
+	{
+		Ordinal: 2527,
+		Year:    2017,
+		Make:    "Aston Martin",
+		Model:   "DB11",
 	},
 	{
 		Ordinal: 2528,
@@ -2296,16 +2626,40 @@ var Cars = []Car{
 		Model:   "FPV Limited Edition Pursuit Ute",
 	},
 	{
+		Ordinal: 2552,
+		Year:    2015,
+		Make:    "Alumi Craft",
+		Model:   "Class 10 Race Car",
+	},
+	{
 		Ordinal: 2559,
 		Year:    1959,
 		Make:    "Jaguar",
 		Model:   "Mk II 3.8",
 	},
 	{
+		Ordinal: 2566,
+		Year:    1979,
+		Make:    "Toyota",
+		Model:   "FJ40",
+	},
+	{
+		Ordinal: 2568,
+		Year:    1969,
+		Make:    "Volkswagen",
+		Model:   "Class 5/1600 Baja Bug",
+	},
+	{
 		Ordinal: 2569,
 		Year:    2015,
 		Make:    "Ultima",
 		Model:   "Evolution Coupe 1020",
+	},
+	{
+		Ordinal: 2574,
+		Year:    2554,
+		Make:    "AMG Transport Dynamics",
+		Model:   "M12S Warthog CST",
 	},
 	{
 		Ordinal: 2577,
@@ -2344,6 +2698,12 @@ var Cars = []Car{
 		Model:   "Falcon XA GT-HO",
 	},
 	{
+		Ordinal: 2586,
+		Year:    2015,
+		Make:    "Volvo",
+		Model:   "V60 Polestar",
+	},
+	{
 		Ordinal: 2587,
 		Year:    1988,
 		Make:    "Holden",
@@ -2374,10 +2734,22 @@ var Cars = []Car{
 		Model:   "Chiron",
 	},
 	{
+		Ordinal: 2625,
+		Year:    2016,
+		Make:    "Bentley",
+		Model:   "Bentayga",
+	},
+	{
 		Ordinal: 2628,
 		Year:    2016,
 		Make:    "BMW",
 		Model:   "M4 GTS",
+	},
+	{
+		Ordinal: 2636,
+		Year:    1993,
+		Make:    "Toyota",
+		Model:   "#1 T100 Baja Truck",
 	},
 	{
 		Ordinal: 2647,
@@ -2548,6 +2920,12 @@ var Cars = []Car{
 		Model:   "720S Coupe",
 	},
 	{
+		Ordinal: 2847,
+		Year:    2017,
+		Make:    "Chevrolet",
+		Model:   "Colorado ZR2",
+	},
+	{
 		Ordinal: 2852,
 		Year:    2018,
 		Make:    "Audi",
@@ -2582,6 +2960,12 @@ var Cars = []Car{
 		Year:    2018,
 		Make:    "Honda",
 		Model:   "Civic Type R",
+	},
+	{
+		Ordinal: 2871,
+		Year:    2018,
+		Make:    "Can-Am",
+		Model:   "Maverick X RS Turbo R",
 	},
 	{
 		Ordinal: 2872,
@@ -2644,6 +3028,12 @@ var Cars = []Car{
 		Model:   "812 Superfast",
 	},
 	{
+		Ordinal: 2976,
+		Year:    1930,
+		Make:    "Bentley",
+		Model:   "Blower 4-1/2 Litre Supercharged",
+	},
+	{
 		Ordinal: 2980,
 		Year:    1964,
 		Make:    "Ford",
@@ -2696,6 +3086,12 @@ var Cars = []Car{
 		Year:    2006,
 		Make:    "Formula Drift",
 		Model:   "Dodge Viper SRT10 #43",
+	},
+	{
+		Ordinal: 3007,
+		Year:    2017,
+		Make:    "Volkswagen",
+		Model:   "Beetle #34",
 	},
 	{
 		Ordinal: 3018,
@@ -2786,6 +3182,12 @@ var Cars = []Car{
 		Year:    2019,
 		Make:    "Aston Martin",
 		Model:   "Vantage",
+	},
+	{
+		Ordinal: 3094,
+		Year:    2018,
+		Make:    "Morgan",
+		Model:   "Aero GT",
 	},
 	{
 		Ordinal: 3112,
@@ -2884,10 +3286,22 @@ var Cars = []Car{
 		Model:   "#22 Experion Racing Golf GTI",
 	},
 	{
+		Ordinal: 3163,
+		Year:    2018,
+		Make:    "Chevrolet",
+		Model:   "Hot Wheels COPO Camaro",
+	},
+	{
 		Ordinal: 3168,
 		Year:    2019,
 		Make:    "Bugatti",
 		Model:   "Divo",
+	},
+	{
+		Ordinal: 3172,
+		Year:    1991,
+		Make:    "Bentley",
+		Model:   "Turbo R",
 	},
 	{
 		Ordinal: 3173,
@@ -3010,6 +3424,12 @@ var Cars = []Car{
 		Model:   "#66 Power Maxed TAG Racing Astra",
 	},
 	{
+		Ordinal: 3235,
+		Year:    1982,
+		Make:    "Volkswagen",
+		Model:   "Pickup LX",
+	},
+	{
 		Ordinal: 3239,
 		Year:    2018,
 		Make:    "Lamborghini",
@@ -3020,6 +3440,12 @@ var Cars = []Car{
 		Year:    2018,
 		Make:    "Acura",
 		Model:   "#36 NSX GT3",
+	},
+	{
+		Ordinal: 3241,
+		Year:    2018,
+		Make:    "Subaru",
+		Model:   "WRX STI ARX Supercar",
 	},
 	{
 		Ordinal: 3243,
@@ -3214,6 +3640,12 @@ var Cars = []Car{
 		Model:   "RS 4 Avant",
 	},
 	{
+		Ordinal: 3320,
+		Year:    2019,
+		Make:    "Italdesign",
+		Model:   "DaVinci Concept",
+	},
+	{
 		Ordinal: 3334,
 		Year:    2016,
 		Make:    "Elemental",
@@ -3292,6 +3724,12 @@ var Cars = []Car{
 		Model:   "4Runner TRD Pro",
 	},
 	{
+		Ordinal: 3374,
+		Year:    2019,
+		Make:    "Toyota",
+		Model:   "Tacoma TRD Pro",
+	},
+	{
 		Ordinal: 3395,
 		Year:    1967,
 		Make:    "Renault",
@@ -3326,6 +3764,12 @@ var Cars = []Car{
 		Year:    2019,
 		Make:    "Toyota",
 		Model:   "86 TRD SE",
+	},
+	{
+		Ordinal: 3419,
+		Year:    2020,
+		Make:    "Toyota",
+		Model:   "Tundra TRD Pro",
 	},
 	{
 		Ordinal: 3420,
@@ -3370,6 +3814,18 @@ var Cars = []Car{
 		Model:   "GT",
 	},
 	{
+		Ordinal: 3438,
+		Year:    1961,
+		Make:    "DeBerti",
+		Model:   "Ford Econoline 'Shop Rod'",
+	},
+	{
+		Ordinal: 3439,
+		Year:    2019,
+		Make:    "DeBerti",
+		Model:   "Ford Super Duty F-250 Lariat 'Transformer'",
+	},
+	{
 		Ordinal: 3445,
 		Year:    2020,
 		Make:    "Porsche",
@@ -3406,6 +3862,12 @@ var Cars = []Car{
 		Model:   "#6 Team LNT Ginetta G60-LT-P1",
 	},
 	{
+		Ordinal: 3477,
+		Year:    2020,
+		Make:    "Chevrolet",
+		Model:   "Silverado LT Trail Boss",
+	},
+	{
 		Ordinal: 3482,
 		Year:    2021,
 		Make:    "McLaren",
@@ -3436,6 +3898,12 @@ var Cars = []Car{
 		Model:   "S7 LM",
 	},
 	{
+		Ordinal: 3499,
+		Year:    2020,
+		Make:    "Saleen",
+		Model:   "Sportruck XR Black Label",
+	},
+	{
 		Ordinal: 3506,
 		Year:    1974,
 		Make:    "Porsche",
@@ -3464,6 +3932,12 @@ var Cars = []Car{
 		Year:    2020,
 		Make:    "Formula Drift",
 		Model:   "Toyota GR Supra #151",
+	},
+	{
+		Ordinal: 3530,
+		Year:    2021,
+		Make:    "Forsberg Racing",
+		Model:   "Nissan 'Altimaniac'",
 	},
 	{
 		Ordinal: 3532,
@@ -3526,6 +4000,12 @@ var Cars = []Car{
 		Model:   "Sunshine S",
 	},
 	{
+		Ordinal: 3549,
+		Year:    2021,
+		Make:    "Alumi Craft",
+		Model:   "#122 Class 1 Buggy",
+	},
+	{
 		Ordinal: 3551,
 		Year:    2020,
 		Make:    "Formula Drift",
@@ -3536,6 +4016,24 @@ var Cars = []Car{
 		Year:    2020,
 		Make:    "Lynk & Co",
 		Model:   "#62 Cyan Racing 03",
+	},
+	{
+		Ordinal: 3556,
+		Year:    2011,
+		Make:    "BMW",
+		Model:   "X5 M Forza Edition",
+	},
+	{
+		Ordinal: 3559,
+		Year:    1953,
+		Make:    "Chevrolet",
+		Model:   "Corvette Forza Edition",
+	},
+	{
+		Ordinal: 3580,
+		Year:    2021,
+		Make:    "Aston Martin",
+		Model:   "DBX",
 	},
 	{
 		Ordinal: 3583,
@@ -3550,6 +4048,12 @@ var Cars = []Car{
 		Model:   "RS 7 Sportback",
 	},
 	{
+		Ordinal: 3590,
+		Year:    1972,
+		Make:    "Chevrolet",
+		Model:   "K10 Custom",
+	},
+	{
 		Ordinal: 3594,
 		Year:    2020,
 		Make:    "Ferrari",
@@ -3562,10 +4066,22 @@ var Cars = []Car{
 		Model:   "SF90 Stradale",
 	},
 	{
+		Ordinal: 3597,
+		Year:    1986,
+		Make:    "Ford",
+		Model:   "F-150 XLT Lariat",
+	},
+	{
 		Ordinal: 3599,
 		Year:    2022,
 		Make:    "Gordon Murray Automotive",
 		Model:   "T.50",
+	},
+	{
+		Ordinal: 3603,
+		Year:    2019,
+		Make:    "Casey Currie Motorsports",
+		Model:   "#4402 Ultra 4 'Trophy Jeep'",
 	},
 	{
 		Ordinal: 3606,
@@ -3640,6 +4156,24 @@ var Cars = []Car{
 		Model:   "620R",
 	},
 	{
+		Ordinal: 3657,
+		Year:    2022,
+		Make:    "Rivian",
+		Model:   "R1T",
+	},
+	{
+		Ordinal: 3658,
+		Year:    2022,
+		Make:    "Rivian",
+		Model:   "R1S",
+	},
+	{
+		Ordinal: 3662,
+		Year:    2021,
+		Make:    "RJ Anderson",
+		Model:   "#37 Polaris RZR Pro 4 Truck",
+	},
+	{
 		Ordinal: 3667,
 		Year:    2021,
 		Make:    "Porsche",
@@ -3664,6 +4198,12 @@ var Cars = []Car{
 		Model:   "Huracán STO",
 	},
 	{
+		Ordinal: 3673,
+		Year:    2020,
+		Make:    "Lamborghini",
+		Model:   "SC20",
+	},
+	{
 		Ordinal: 3676,
 		Year:    2021,
 		Make:    "Hyundai",
@@ -3682,10 +4222,34 @@ var Cars = []Car{
 		Model:   "i30N",
 	},
 	{
+		Ordinal: 3681,
+		Year:    1998,
+		Make:    "Toyota",
+		Model:   "Supra RZ 'Welcome Pack'",
+	},
+	{
+		Ordinal: 3682,
+		Year:    2018,
+		Make:    "Apollo",
+		Model:   "Intensa Emozione 'Welcome Pack'",
+	},
+	{
+		Ordinal: 3686,
+		Year:    2021,
+		Make:    "Polaris",
+		Model:   "RZR Pro XP Factory Racing Limited Edition",
+	},
+	{
 		Ordinal: 3689,
 		Year:    2021,
 		Make:    "MG",
 		Model:   "MG6 XPower",
+	},
+	{
+		Ordinal: 3693,
+		Year:    2022,
+		Make:    "Alumi Craft",
+		Model:   "#6165 Trick Truck",
 	},
 	{
 		Ordinal: 3696,
@@ -3706,6 +4270,12 @@ var Cars = []Car{
 		Model:   "Sabre",
 	},
 	{
+		Ordinal: 3706,
+		Year:    1970,
+		Make:    "Hot Wheels",
+		Model:   "Pontiac Firebird Trans Am Custom",
+	},
+	{
 		Ordinal: 3716,
 		Year:    2023,
 		Make:    "Lotus",
@@ -3722,6 +4292,12 @@ var Cars = []Car{
 		Year:    2022,
 		Make:    "Cadillac",
 		Model:   "CT5-V Blackwing",
+	},
+	{
+		Ordinal: 3722,
+		Year:    2022,
+		Make:    "GMC",
+		Model:   "HUMMER EV Pickup",
 	},
 	{
 		Ordinal: 3724,
@@ -3754,10 +4330,58 @@ var Cars = []Car{
 		Model:   "iX xDrive50",
 	},
 	{
+		Ordinal: 3741,
+		Year:    1996,
+		Make:    "Formula Drift",
+		Model:   "#51 Donut Media Nissan 240SX",
+	},
+	{
+		Ordinal: 3742,
+		Year:    2003,
+		Make:    "Nissan",
+		Model:   "Donut Media 350Z 'Hi Car'",
+	},
+	{
+		Ordinal: 3743,
+		Year:    2004,
+		Make:    "Nissan",
+		Model:   "Donut Media 350Z 'Low Car'",
+	},
+	{
+		Ordinal: 3744,
+		Year:    2023,
+		Make:    "Formula Drift",
+		Model:   "#64 Forsberg Racing Nissan Z",
+	},
+	{
 		Ordinal: 3745,
 		Year:    2020,
 		Make:    "Audi",
 		Model:   "R8 V10 performance",
+	},
+	{
+		Ordinal: 3746,
+		Year:    2022,
+		Make:    "CUPRA",
+		Model:   "Formentor VZ5",
+	},
+	{
+		Ordinal: 3747,
+		Year:    2022,
+		Make:    "CUPRA",
+		Model:   "Tavascan Concept",
+	},
+	{
+		Ordinal: 3753,
+		Year:    2023,
+		Make:    "Lamborghini",
+		Model:   "Huracán Tecnica",
+	},
+	{
+		Ordinal: 3757,
+		Year:    2024,
+		Make:    "Czinger",
+		Model:   "21C",
 	},
 	{
 		Ordinal: 3759,
@@ -3856,6 +4480,18 @@ var Cars = []Car{
 		Model:   "911 GT2 RS Forza Edition",
 	},
 	{
+		Ordinal: 3808,
+		Year:    1956,
+		Make:    "Chevrolet",
+		Model:   "Barbie Movie' Corvette EV",
+	},
+	{
+		Ordinal: 3809,
+		Year:    2022,
+		Make:    "GMC",
+		Model:   "Barbie Movie' HUMMER EV PICKUP",
+	},
+	{
 		Ordinal: 3810,
 		Year:    2010,
 		Make:    "Nissan",
@@ -3878,6 +4514,36 @@ var Cars = []Car{
 		Year:    2023,
 		Make:    "Hyundai",
 		Model:   "IONIQ 5 N",
+	},
+	{
+		Ordinal: 3832,
+		Year:    1973,
+		Make:    "Fast and Furious",
+		Model:   "Datsun 240Z 'Fast X'",
+	},
+	{
+		Ordinal: 3835,
+		Year:    1966,
+		Make:    "Fast and Furious",
+		Model:   "Chevrolet Impala Super Sport 'Fast X'",
+	},
+	{
+		Ordinal: 3836,
+		Year:    2022,
+		Make:    "Fast and Furious",
+		Model:   "Dodge Charger SRT Hellcat Redeye Widebody 'Fast X'",
+	},
+	{
+		Ordinal: 3837,
+		Year:    1970,
+		Make:    "Fast and Furious",
+		Model:   "Dodge Charger 'Fast X'",
+	},
+	{
+		Ordinal: 3838,
+		Year:    2022,
+		Make:    "Fast and Furious",
+		Model:   "Flip Car 2.0 'Fast X'",
 	},
 	{
 		Ordinal: 3846,
@@ -3992,5 +4658,11 @@ var Cars = []Car{
 		Year:    2024,
 		Make:    "Ford",
 		Model:   "NASCAR Next Gen Mustang Dark Horse",
+	},
+	{
+		Ordinal: 9007,
+		Year:    1994,
+		Make:    "Ford",
+		Model:   "Supervan 3 'Donut Media Edition'",
 	},
 }
