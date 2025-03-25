@@ -3934,6 +3934,18 @@ var Cars = []Car{
 		Model:   "Toyota GR Supra #151",
 	},
 	{
+		Ordinal: 3529,
+		Year:    2023,
+		Make:    "Lamborghini",
+		Model:   "Revuelto",
+	},
+	{
+		Ordinal: 3529,
+		Year:    2023,
+		Make:    "Lamborghini",
+		Model:   "Revuelto",
+	},
+	{
 		Ordinal: 3530,
 		Year:    2021,
 		Make:    "Forsberg Racing",
@@ -4148,6 +4160,12 @@ var Cars = []Car{
 		Year:    2021,
 		Make:    "Mercedes-AMG",
 		Model:   "Mercedes-AMG ONE",
+	},
+	{
+		Ordinal: 3652,
+		Year:    2017,
+		Make:    "Oreca",
+		Model:   "Performance Tech 07",
 	},
 	{
 		Ordinal: 3655,
@@ -4594,6 +4612,12 @@ var Cars = []Car{
 		Model:   "Mustang RTR #25",
 	},
 	{
+		Ordinal: 3874,
+		Year:    2023,
+		Make:    "Lamborghini",
+		Model:   "SC63",
+	},
+	{
 		Ordinal: 3876,
 		Year:    2023,
 		Make:    "Porsche",
@@ -4610,6 +4634,12 @@ var Cars = []Car{
 		Year:    1976,
 		Make:    "BMW",
 		Model:   "3.0 CSL #1",
+	},
+	{
+		Ordinal: 3906,
+		Year:    2018,
+		Make:    "Lotus",
+		Model:   "Evora GT430",
 	},
 	{
 		Ordinal: 3913,
