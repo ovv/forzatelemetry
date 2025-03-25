@@ -104,6 +104,8 @@ type TelemetryPoint struct {
 	Power  float32 // watts
 	Torque float32 //newton meter
 
+	// Rear right tire is wrong (same as rear left)
+	// https://forums.forza.net/t/data-out-udp-incorrect-data-wheelinpuddledepthfrontleft-tiretemprearright-1932122/730417
 	TireTempFrontLeft  float32
 	TireTempFrontRight float32
 	TireTempRearLeft   float32
