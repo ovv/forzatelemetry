@@ -3935,9 +3935,9 @@ var Cars = []Car{
 	},
 	{
 		Ordinal: 3529,
-		Year:    2023,
-		Make:    "Lamborghini",
-		Model:   "Revuelto",
+		Year:    1975,
+		Make:    "Nissan",
+		Model:   "Forsberg Racing Gold Leader Datzun 280Z",
 	},
 	{
 		Ordinal: 3530,
@@ -4628,6 +4628,12 @@ var Cars = []Car{
 		Year:    1976,
 		Make:    "BMW",
 		Model:   "3.0 CSL #1",
+	},
+	{
+		Ordinal: 3891,
+		Year:    2023,
+		Make:    "Lamborghini",
+		Model:   "Revuelto",
 	},
 	{
 		Ordinal: 3906,
