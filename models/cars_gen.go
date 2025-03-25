@@ -3940,12 +3940,6 @@ var Cars = []Car{
 		Model:   "Revuelto",
 	},
 	{
-		Ordinal: 3529,
-		Year:    2023,
-		Make:    "Lamborghini",
-		Model:   "Revuelto",
-	},
-	{
 		Ordinal: 3530,
 		Year:    2021,
 		Make:    "Forsberg Racing",
