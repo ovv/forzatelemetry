@@ -127,6 +127,12 @@ func (s *Store) LoadFixtures(ctx context.Context, fixtures ...string) error {
 	return dbfixture.New(s.db).Load(ctx, fixtureDir, fixtures...)
 }
 
+func (s *Store) Cleanup(ctx context.Context) error {
+	delRace := s.db.NewDelete().Model(&models.Race{}).Where("finished_at < CURRENT_DATE - interval '3 month'").Returning("id")
+	_, err := s.db.NewDelete().With("delRace", delRace).Model(&models.Point{}).Where("race in (SELECT id FROM ?)", bun.Ident("delRace")).Exec(ctx)
+	return err
+}
+
 func (s *Store) UpsertTracks(tracks []models.Track, ctx context.Context) error {
 	_, err := s.db.NewInsert().Model(&tracks).On("CONFLICT (ordinal) DO UPDATE").Set("name = EXCLUDED.name").Set("layout = EXCLUDED.layout").Set("location = EXCLUDED.location").Set("length = EXCLUDED.length").Exec(ctx)
 	return err

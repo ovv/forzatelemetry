@@ -55,6 +55,9 @@ func run() int {
 		return 1
 	}
 
+	var wg sync.WaitGroup
+	errorC := make(chan bool, 2)
+
 	db, err := storage.NewPGStore(dsn)
 	if err != nil {
 		slog.Error("failed to init database", "error", err)
@@ -81,17 +84,27 @@ func run() int {
 		return 1
 	}
 
-	var wg sync.WaitGroup
-	errorC := make(chan bool, 2)
+	wg.Add(1)
+	cleanupTicker := time.NewTicker(24 * time.Hour)
+	cleanupDone := make(chan struct{})
+	go func() {
+		defer wg.Done()
+		for {
+			select {
+			case <-cleanupDone:
+				return
+			case <-cleanupTicker.C:
+				err := db.Cleanup(context.Background())
+				if err == nil {
+					slog.Info("database cleanup complete")
+				} else {
+					slog.Error("failed to cleanup database", "error", err)
+				}
+			}
+		}
+	}()
 
 	telemetryServer := telemetry.NewServer(telemetryAddr, db, 5*time.Second)
-
-	router := fthttp.Router(db, revision, dashboardBaseUrl)
-	httpServer := &http.Server{
-		Addr:    httpAddr,
-		Handler: router,
-	}
-
 	wg.Add(1)
 	go func() {
 		slog.Info("starting telemetry server", "addr", telemetryAddr)
@@ -105,6 +118,11 @@ func run() int {
 		wg.Done()
 	}()
 
+	router := fthttp.Router(db, revision, dashboardBaseUrl)
+	httpServer := &http.Server{
+		Addr:    httpAddr,
+		Handler: router,
+	}
 	wg.Add(1)
 	go func() {
 		slog.Info("starting http server", "addr", httpServer.Addr)
@@ -132,6 +150,8 @@ func run() int {
 
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
+
+	close(cleanupDone)
 
 	wg.Add(1)
 	go func() {
