@@ -1,6 +1,7 @@
 name: Generate
 
 on:
+  workflow_dispatch:
   schedule:
   # * is a special character in YAML so you have to quote this string
     - cron: '0 0 * * FRI'
@@ -24,6 +25,11 @@ jobs:
       - name: Install just
         uses: extractions/setup-just@v2
                 
+      - name: Install Protoc
+        uses: arduino/setup-protoc@v3
+        with:
+          version: '3.19.6'  # Fedora 41 version
+
       - name: Regenerate
         run: just generate
                 
