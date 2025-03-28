@@ -42,8 +42,10 @@ test *FLAGS:
 	GOEXPERIMENT={{ GOEXPERIMENT }} go tool cover -func=coverage.out
 
 # Run go code generation
-generate:
+generate-proto:
 	protoc -I=models/ --go_out=. models/*.proto
+
+generate-metadata:
 	go generate ./models
 
 # Start local postgres instance

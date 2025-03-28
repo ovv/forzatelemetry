@@ -4438,6 +4438,12 @@ var Cars = []Car{
 		Model:   "Corvette E-Ray",
 	},
 	{
+		Ordinal: 3781,
+		Year:    2023,
+		Make:    "Porsche",
+		Model:   "911 GT3 RS",
+	},
+	{
 		Ordinal: 3792,
 		Year:    2023,
 		Make:    "Cadillac",

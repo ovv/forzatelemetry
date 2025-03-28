@@ -25,13 +25,8 @@ jobs:
       - name: Install just
         uses: extractions/setup-just@v2
                 
-      - name: Install Protoc
-        uses: arduino/setup-protoc@v3
-        with:
-          version: '3.19.6'  # Fedora 41 version
-
       - name: Regenerate
-        run: just generate
+        run: just generate-metadata
                 
       - name: Build
         run: just build
