@@ -2074,6 +2074,12 @@ var Cars = []Car{
 		Model:   "500 Mondial",
 	},
 	{
+		Ordinal: 2188,
+		Year:    2014,
+		Make:    "Koenigsegg",
+		Model:   "One:1",
+	},
+	{
 		Ordinal: 2189,
 		Year:    2015,
 		Make:    "McLaren",
@@ -2228,6 +2234,12 @@ var Cars = []Car{
 		Year:    2022,
 		Make:    "Porsche",
 		Model:   "Cayman GTS",
+	},
+	{
+		Ordinal: 2298,
+		Year:    1978,
+		Make:    "Porsche",
+		Model:   "Racing 935/78 #43",
 	},
 	{
 		Ordinal: 2299,
@@ -2954,6 +2966,12 @@ var Cars = []Car{
 		Year:    1982,
 		Make:    "Ford",
 		Model:   "#6 Zakspeed Roush Mustang IMSA GT",
+	},
+	{
+		Ordinal: 2869,
+		Year:    1971,
+		Make:    "Porsche",
+		Model:   "917/20 #23",
 	},
 	{
 		Ordinal: 2870,
@@ -4438,6 +4456,12 @@ var Cars = []Car{
 		Model:   "Corvette E-Ray",
 	},
 	{
+		Ordinal: 3774,
+		Year:    2021,
+		Make:    "Lamborghini",
+		Model:   "Countach LPI 800-4",
+	},
+	{
 		Ordinal: 3781,
 		Year:    2023,
 		Make:    "Porsche",
@@ -4670,6 +4694,12 @@ var Cars = []Car{
 		Year:    2021,
 		Make:    "Hyundai",
 		Model:   "i20N",
+	},
+	{
+		Ordinal: 3951,
+		Year:    2023,
+		Make:    "Porsche",
+		Model:   "911 GT3 R",
 	},
 	{
 		Ordinal: 3972,
