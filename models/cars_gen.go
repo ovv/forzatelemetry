@@ -820,6 +820,12 @@ var Cars = []Car{
 		Model:   "MX-5 Miata",
 	},
 	{
+		Ordinal: 1117,
+		Year:    2019,
+		Make:    "Audi",
+		Model:   "R8 5.2",
+	},
+	{
 		Ordinal: 1124,
 		Year:    1980,
 		Make:    "Abarth",
@@ -3370,6 +3376,12 @@ var Cars = []Car{
 		Model:   "GT3",
 	},
 	{
+		Ordinal: 3198,
+		Year:    1980,
+		Make:    "Pantera",
+		Model:   "GTS",
+	},
+	{
 		Ordinal: 3211,
 		Year:    2017,
 		Make:    "Aston Martin",
@@ -3554,6 +3566,12 @@ var Cars = []Car{
 		Year:    2015,
 		Make:    "Cadillac",
 		Model:   "#3 Cadillac Racing ATS-V.R",
+	},
+	{
+		Ordinal: 3282,
+		Year:    1987,
+		Make:    "Porsche",
+		Model:   "AG 961 #203",
 	},
 	{
 		Ordinal: 3283,
@@ -3748,6 +3766,12 @@ var Cars = []Car{
 		Model:   "Tacoma TRD Pro",
 	},
 	{
+		Ordinal: 3392,
+		Year:    2000,
+		Make:    "Formula Drift",
+		Model:   "Silvia #215",
+	},
+	{
 		Ordinal: 3395,
 		Year:    1967,
 		Make:    "Renault",
@@ -3764,6 +3788,12 @@ var Cars = []Car{
 		Year:    1978,
 		Make:    "Renault",
 		Model:   "Equipe Renault Elf R.S. 01",
+	},
+	{
+		Ordinal: 3411,
+		Year:    1995,
+		Make:    "Formula Drift",
+		Model:   "Supra #34",
 	},
 	{
 		Ordinal: 3412,
@@ -4700,6 +4730,12 @@ var Cars = []Car{
 		Year:    2023,
 		Make:    "Porsche",
 		Model:   "911 GT3 R",
+	},
+	{
+		Ordinal: 3953,
+		Year:    2023,
+		Make:    "Porsche",
+		Model:   "911 Turbo S",
 	},
 	{
 		Ordinal: 3972,
