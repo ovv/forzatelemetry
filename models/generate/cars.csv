@@ -134,6 +134,7 @@
 1104,1970,Datsun,
 1105,1964,Aston Martin,DB5
 1110,1994,Mazda,MX-5 Miata
+1117,2019,Audi,R8 5.2
 1124,1980,Abarth,Fiat 131
 1125,2008,Lamborghini,Reventon
 1126,2009,BMW,M5
@@ -559,6 +560,7 @@
 3195,2018,ATS,GT
 3196,2019,RAESR,Tachyon Speed
 3197,2018,Mercedes-AMG,GT3
+3198,1980,Pantera,GTS
 3211,2017,Aston Martin,Vulcan AMR Pro
 3212,2019,Zenvo,TSR-S
 3214,2019,Porsche,Motorsport 935
@@ -590,6 +592,7 @@
 3277,2020,Ford,Mustang Shelby GT500
 3278,2015,Ford,Saleen S302 Black Label
 3281,2015,Cadillac,#3 Cadillac Racing ATS-V.R
+3282,1987,Porsche,AG 961 #203
 3283,2018,Cadillac,#57 TA CTS-V
 3284,2021,Hennessey,Camaro Exorcist
 3285,2019,Brabham,BT62
@@ -622,9 +625,11 @@
 3371,2020,Lamborghini,Huracán EVO
 3373,2019,Toyota,4Runner TRD Pro
 3374,2019,Toyota,Tacoma TRD Pro
+3392,2000,Formula Drift,Silvia #215
 3395,1967,Renault,8 Gordini
 3402,2020,Toyota,GR Supra
 3403,1978,Renault,Equipe Renault Elf R.S. 01
+3411,1995,Formula Drift,Supra #34
 3412,2019,SUBARU,STI S209
 3413,2021,Volkswagen,Golf R
 3418,2019,Toyota,86 TRD SE
@@ -781,6 +786,7 @@
 3919,2023,BMW,M4 GT3 #96
 3928,2021,Hyundai,i20N
 3951,2023,Porsche,911 GT3 R
+3953,2023,Porsche,911 Turbo S
 3972,1969,Chevrolet,Camaro Jordan Luka 3
 3993,2024,Toyota,NASCAR Next Gen Camry XSE
 3994,2024,Chevrolet,NASCAR Next Gen Camaro ZL1

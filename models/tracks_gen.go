@@ -158,6 +158,20 @@ var Tracks = []Track{
 		Length:   1.85,
 	},
 	{
+		Ordinal:  78,
+		Name:     "Fujimi Kaido",
+		Layout:   "Full",
+		Location: "Japan",
+		Length:   16.42,
+	},
+	{
+		Ordinal:  83,
+		Name:     "Fujimi Kaido",
+		Layout:   "Full Reverse",
+		Location: "Japan",
+		Length:   16.42,
+	},
+	{
 		Ordinal:  100,
 		Name:     "Le Mans - Circuit International de la Sarthe",
 		Layout:   "Full Circuit",
