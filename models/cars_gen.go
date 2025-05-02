@@ -2578,6 +2578,12 @@ var Cars = []Car{
 		Model:   "911 GT3 RS",
 	},
 	{
+		Ordinal: 2529,
+		Year:    2022,
+		Make:    "Porsche",
+		Model:   "Cayman GT4",
+	},
+	{
 		Ordinal: 2532,
 		Year:    1980,
 		Make:    "Porsche",
@@ -2630,6 +2636,12 @@ var Cars = []Car{
 		Year:    2016,
 		Make:    "Dodge",
 		Model:   "Viper ACR",
+	},
+	{
+		Ordinal: 2548,
+		Year:    1978,
+		Make:    "Porsche",
+		Model:   "MOMO 935/78 #78",
 	},
 	{
 		Ordinal: 2549,
@@ -3620,6 +3632,12 @@ var Cars = []Car{
 		Year:    1993,
 		Make:    "Jaguar",
 		Model:   "XJ220S TWR",
+	},
+	{
+		Ordinal: 3298,
+		Year:    1981,
+		Make:    "Porsche",
+		Model:   "System Engineering 924 GTP Le Mans",
 	},
 	{
 		Ordinal: 3301,
