@@ -152,6 +152,7 @@
 1217,2010,BMW,M6 Coupé '10
 1219,1992,Bugatti,EB110 Super Sport
 1220,2010,Audi,TT RS Coupe
+1229,2008,Mazda,Furai
 1231,2010,Volkswagen,Golf R
 1260,2010,Lexus,LFA
 1267,1971,AMC,Javelin AMX
@@ -663,6 +664,7 @@
 3517,1966,Brabham,BT8
 3518,2020,BMW,M8 Competition Coupé
 3520,2021,Lexus,LC 500
+3521,1984,Toyota,Horsepower Techs Starlet Time Attack
 3523,2020,Formula Drift,Toyota GR Supra #151
 3529,1975,Nissan,Forsberg Racing Gold Leader Datzun 280Z
 3530,2021,Forsberg Racing,Nissan 'Altimaniac'
@@ -679,6 +681,7 @@
 3549,2021,Alumi Craft,#122 Class 1 Buggy
 3551,2020,Formula Drift,BMW M2 #91
 3552,2020,Lynk & Co,#62 Cyan Racing 03
+3554,2005,Mitsubishi,Sierra Enterprises Lancer Evolution Time Attack
 3556,2011,BMW,X5 M Forza Edition
 3559,1953,Chevrolet,Corvette Forza Edition
 3580,2021,Aston Martin,DBX
@@ -747,6 +750,7 @@
 3762,2018,Aston Martin,AMR Vantage GTE
 3763,2023,BMW,M2
 3766,2023,Chevrolet,Corvette Z06
+3767,2022,Acura,NSX Type S
 3771,2024,Chevrolet,Corvette E-Ray
 3774,2021,Lamborghini,Countach LPI 800-4
 3781,2023,Porsche,911 GT3 RS
@@ -785,8 +789,10 @@
 3891,2023,Lamborghini,Revuelto
 3906,2018,Lotus,Evora GT430
 3913,2023,BMW,Team RLL M Hybrid V8 #25
+3915,1997,Toyota,Mark II Tourer V JXZ100
 3916,2024,Ford,Mustang RTR #130
 3919,2023,BMW,M4 GT3 #96
+3921,2024,Nissan,Z NISMO
 3928,2021,Hyundai,i20N
 3951,2023,Porsche,911 GT3 R
 3953,2023,Porsche,911 Turbo S
@@ -794,4 +800,5 @@
 3993,2024,Toyota,NASCAR Next Gen Camry XSE
 3994,2024,Chevrolet,NASCAR Next Gen Camaro ZL1
 3995,2024,Ford,NASCAR Next Gen Mustang Dark Horse
+4026,2024,Ford,Mustang GT3
 9007,1994,Ford,Supervan 3 'Donut Media Edition'
