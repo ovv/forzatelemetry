@@ -928,6 +928,12 @@ var Cars = []Car{
 		Model:   "TT RS Coupe",
 	},
 	{
+		Ordinal: 1229,
+		Year:    2008,
+		Make:    "Mazda",
+		Model:   "Furai",
+	},
+	{
 		Ordinal: 1231,
 		Year:    2010,
 		Make:    "Volkswagen",
@@ -3994,6 +4000,12 @@ var Cars = []Car{
 		Model:   "LC 500",
 	},
 	{
+		Ordinal: 3521,
+		Year:    1984,
+		Make:    "Toyota",
+		Model:   "Horsepower Techs Starlet Time Attack",
+	},
+	{
 		Ordinal: 3523,
 		Year:    2020,
 		Make:    "Formula Drift",
@@ -4088,6 +4100,12 @@ var Cars = []Car{
 		Year:    2020,
 		Make:    "Lynk & Co",
 		Model:   "#62 Cyan Racing 03",
+	},
+	{
+		Ordinal: 3554,
+		Year:    2005,
+		Make:    "Mitsubishi",
+		Model:   "Sierra Enterprises Lancer Evolution Time Attack",
 	},
 	{
 		Ordinal: 3556,
@@ -4498,6 +4516,12 @@ var Cars = []Car{
 		Model:   "Corvette Z06",
 	},
 	{
+		Ordinal: 3767,
+		Year:    2022,
+		Make:    "Acura",
+		Model:   "NSX Type S",
+	},
+	{
 		Ordinal: 3771,
 		Year:    2024,
 		Make:    "Chevrolet",
@@ -4726,6 +4750,12 @@ var Cars = []Car{
 		Model:   "Team RLL M Hybrid V8 #25",
 	},
 	{
+		Ordinal: 3915,
+		Year:    1997,
+		Make:    "Toyota",
+		Model:   "Mark II Tourer V JXZ100",
+	},
+	{
 		Ordinal: 3916,
 		Year:    2024,
 		Make:    "Ford",
@@ -4736,6 +4766,12 @@ var Cars = []Car{
 		Year:    2023,
 		Make:    "BMW",
 		Model:   "M4 GT3 #96",
+	},
+	{
+		Ordinal: 3921,
+		Year:    2024,
+		Make:    "Nissan",
+		Model:   "Z NISMO",
 	},
 	{
 		Ordinal: 3928,
@@ -4778,6 +4814,12 @@ var Cars = []Car{
 		Year:    2024,
 		Make:    "Ford",
 		Model:   "NASCAR Next Gen Mustang Dark Horse",
+	},
+	{
+		Ordinal: 4026,
+		Year:    2024,
+		Make:    "Ford",
+		Model:   "Mustang GT3",
 	},
 	{
 		Ordinal: 9007,
