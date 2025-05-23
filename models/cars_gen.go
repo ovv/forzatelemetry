@@ -4003,7 +4003,7 @@ var Cars = []Car{
 		Ordinal: 3521,
 		Year:    1984,
 		Make:    "Toyota",
-		Model:   "Horsepower Techs Starlet Time Attack",
+		Model:   "Starlet Time Attack",
 	},
 	{
 		Ordinal: 3523,
