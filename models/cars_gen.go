@@ -3643,7 +3643,7 @@ var Cars = []Car{
 		Ordinal: 3298,
 		Year:    1981,
 		Make:    "Porsche",
-		Model:   "System Engineering 924 GTP Le Mans",
+		Model:   "924 GTP Le Mans",
 	},
 	{
 		Ordinal: 3301,
@@ -4820,6 +4820,18 @@ var Cars = []Car{
 		Year:    2024,
 		Make:    "Ford",
 		Model:   "Mustang GT3",
+	},
+	{
+		Ordinal: 4208,
+		Year:    2015,
+		Make:    "Honda",
+		Model:   "Indy '25",
+	},
+	{
+		Ordinal: 4209,
+		Year:    2015,
+		Make:    "Chevy",
+		Model:   "Indy '25",
 	},
 	{
 		Ordinal: 9007,
