@@ -122,16 +122,17 @@ func (s *Session) Checkpoint() error {
 	if len(s.points) == 0 {
 		return nil
 	}
+	start := time.Now()
 
 	s.race = s.race.Update(s.points[len(s.points)-1])
 	s.saveRace()
 
-	slog.Debug("checkpointing", "race", s.race.ID, "points", len(s.points), "cap", cap(s.points))
 	err := s.db.InsertPoints(s.points, context.Background())
 	if err != nil {
 		return fmt.Errorf("failed checkpointing race: %w", err)
 	}
 	s.points = s.points[:0]
+	slog.Debug("checkpoint", "race", s.race.ID, "points", len(s.points), "cap", cap(s.points), "duration", time.Since(start))
 	return nil
 }
 

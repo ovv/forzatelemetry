@@ -159,7 +159,7 @@ func (s *Server) readOne(buf []byte) {
 	case s.findChannel(key) <- point:
 		return
 	default:
-		slog.Warn("session channel full")
+		slog.Warn("session channel full", "session", key)
 	}
 }
 
