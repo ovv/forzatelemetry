@@ -44,7 +44,7 @@ func (s *Session) Close() error {
 	}
 	err := s.Checkpoint()
 	if err != nil {
-		return err
+		slog.Error("failed checkpointing before closing session", "error", err, "session", s.ID)
 	}
 	err = s.endRace()
 	return err
@@ -129,7 +129,7 @@ func (s *Session) Checkpoint() error {
 
 	err := s.db.InsertPoints(s.points, context.Background())
 	if err != nil {
-		return fmt.Errorf("failed checkpointing race: %w", err)
+		return fmt.Errorf("failed checkpointing race %s: %w", s.race.ID, err)
 	}
 	s.points = s.points[:0]
 	slog.Debug("checkpoint", "race", s.race.ID, "points", len(s.points), "cap", cap(s.points), "duration", time.Since(start))
