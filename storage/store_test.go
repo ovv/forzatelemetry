@@ -153,3 +153,42 @@ func TestUpsertCarClasses(t *testing.T) {
 		t.Errorf("expected %s got %s", "Foo", carClass.Name)
 	}
 }
+
+func TestIsPGAndIsSqlite(t *testing.T) {
+	store, err := storage.NewSqliteStore("file::memory:?cache=shared")
+	if err != nil {
+		t.Fatalf("unexpected error %s", err)
+	}
+	defer store.Close()
+
+	if store.IsPG() {
+		t.Errorf("expected IsPG to be false for sqlite")
+	}
+	if !store.IsSqlite() {
+		t.Errorf("expected IsSqlite to be true for sqlite")
+	}
+}
+
+func TestLoadFixturesAndCleanup(t *testing.T) {
+	store, err := storage.NewSqliteStore("file::memory:?cache=shared")
+	if err != nil {
+		t.Fatalf("unexpected error %s", err)
+	}
+	defer store.Close()
+
+	err = store.CreateTables(context.Background())
+	if err != nil {
+		t.Fatalf("unexpected error %s", err)
+	}
+
+	err = store.LoadFixtures(context.Background(), "races.yaml", "points.yaml")
+	if err != nil {
+		t.Fatalf("unexpected error loading fixtures: %s", err)
+	}
+
+	// Cleanup should not error even if nothing is deleted
+	err = store.Cleanup(context.Background())
+	if err != nil {
+		t.Fatalf("unexpected error cleaning up: %s", err)
+	}
+}

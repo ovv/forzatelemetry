@@ -8,6 +8,7 @@ import (
 	"forzatelemetry/models"
 	"forzatelemetry/testutils"
 	"forzatelemetry/web"
+	"net/http/httptest"
 )
 
 func TestTracks(t *testing.T) {
@@ -52,5 +53,18 @@ func TestTracks(t *testing.T) {
 	expected := "WeatherTech Raceway Laguna Seca - Short Circuit"
 	if d.Items[1] != models.Tracks[1] {
 		t.Fatalf("expected %v got %v", expected, d.Items[1])
+	}
+}
+
+func TestTracksRendererHTML(t *testing.T) {
+	r := web.TracksRenderer{
+		Count: 2,
+		Items: models.Tracks[:2],
+	}
+	w := httptest.NewRecorder()
+	req, _ := http.NewRequest("GET", "/", nil)
+	html := r.HTML(w, req)
+	if html == "" {
+		t.Error("expected non-empty HTML output")
 	}
 }

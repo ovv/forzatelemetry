@@ -3,6 +3,7 @@ package storage
 import (
 	"context"
 	"database/sql"
+	"errors"
 	"log/slog"
 	"os"
 	"path/filepath"
@@ -128,9 +129,25 @@ func (s *Store) LoadFixtures(ctx context.Context, fixtures ...string) error {
 }
 
 func (s *Store) Cleanup(ctx context.Context) error {
-	delRace := s.db.NewDelete().Model(&models.Race{}).Where("finished_at < CURRENT_DATE - interval '3 month'").Returning("id")
-	_, err := s.db.NewDelete().With("delRace", delRace).Model(&models.Point{}).Where("race in (SELECT id FROM ?)", bun.Ident("delRace")).Exec(ctx)
-	return err
+	if s.IsPG() {
+		delRace := s.db.NewDelete().Model(&models.Race{}).Where("finished_at < CURRENT_DATE - interval '3 month'").Returning("id")
+		_, err := s.db.NewDelete().With("delRace", delRace).Model(&models.Point{}).Where("race in (SELECT id FROM ?)", bun.Ident("delRace")).Exec(ctx)
+		return err
+	} else if s.IsSqlite() {
+		// SQLite: delete points referencing old races, then delete old races
+		_, err := s.db.NewDelete().Model(&models.Point{}).Where(
+			"race IN (SELECT id FROM races WHERE finished_at < date('now', '-3 months'))",
+		).Exec(ctx)
+		if err != nil {
+			return err
+		}
+		_, err = s.db.NewDelete().Model(&models.Race{}).Where(
+			"finished_at < date('now', '-3 months')",
+		).Exec(ctx)
+		return err
+	} else {
+		return errors.New("unsupported database dialect")
+	}
 }
 
 func (s *Store) UpsertTracks(tracks []models.Track, ctx context.Context) error {
