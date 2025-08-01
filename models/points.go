@@ -119,7 +119,7 @@ type TelemetryPoint struct {
 	CurrentLap       float32
 	CurrentRaceTime  float32
 
-	LapNumber uint16
+	LapNumber uint16 `bun:"type:INTEGER"`
 
 	RacePosition uint8
 	Accel        uint8

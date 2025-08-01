@@ -18,13 +18,13 @@ func init() {
 
 			var err error
 			if db.Dialect().Name() == dialect.SQLite {
-				query = query.ColumnExpr("COLUMN ?", bun.Ident(column[0]), bun.Safe(column[1]))
+				query = query.ColumnExpr("COLUMN ? ?", bun.Ident(column[0]), bun.Safe(column[1]))
 				_, err = query.Exec(ctx)
 				if err != nil && err.Error() == fmt.Sprintf("SQL logic error: duplicate column name: %s (1)", column[0]) {
 					err = nil
 				}
 			} else {
-				query = query.ColumnExpr("COLUMN IF NOT EXISTS ?", bun.Ident(column[0]), bun.Safe(column[1]))
+				query = query.ColumnExpr("COLUMN IF NOT EXISTS ? ?", bun.Ident(column[0]), bun.Safe(column[1]))
 				_, err = query.Exec(ctx)
 			}
 
